@@ -1,0 +1,290 @@
+
+
+#cuadro1{
+    width:1600px;
+    height:1200px;
+    border: black 1px solid;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.rectangulo3{
+    width: 1400px;
+    height:800px;
+    margin-right: 100px;
+    margin-left:100px;
+    margin-top:200px;
+    margin-bottom: 200px;
+    border: black 1px solid;
+    background-color: #FFFFFF;
+    
+}
+
+#img2{
+    margin-top: 303px;
+    margin-left: 359px;
+    margin-right:465px ;
+    margin-bottom:573px ;
+    width: 576px;
+    height: 324px;
+}
+#metro{
+
+    width: 576px;
+    height: 324px;
+    position: absolute;
+    top:345px;
+}
+#rectangulo1{
+    width: 110px;
+    height: 804px;
+    position: absolute;
+    top: 210px;
+    left: 1414px;
+   
+}
+#logo{
+ 
+    width: 196px;
+    height: 44px;
+    position: absolute;
+    top: 243px;
+    left: 143px;
+    
+
+}
+#saldo{
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 242px;
+    left: 1072px;
+    
+}
+#saldo1{
+    position:absolute;
+    top: 14px;
+}
+#comprar{
+    width: 230px;
+    height: 41px;
+    position: absolute;
+    top: 240px;
+    left: 790px;
+}
+#comprar1{
+    position:absolute;
+    top: 14px;
+}
+#flecha{
+    
+    width: 24px;
+    height: 14px;
+    position: absolute;
+    top: 240px;
+    left: 1460px;
+
+}
+#flecha1{
+    width: 24px;
+    height: 14px;
+
+}
+#flechasecond{
+    
+    width: 24px;
+    height: 14px;
+    position: absolute;
+    top: 946px;
+    left: 1460px;
+}
+#second{
+    width: 24px;
+    height: 14px;
+}
+#colorv{
+   
+    width: 160px;
+    height: 114px;
+    position: absolute;
+    top: 847px;
+    left: 1180px;
+}
+#verde{
+    width: 160px;
+    height: 114px;
+}
+#logo2{
+  
+    width: 129px;
+    height: 29px;
+    position: absolute;
+    top: 876px;
+    left: 1195px;
+
+}
+#loguin{
+    width: 129px;
+    height: 29px;
+
+}
+#algo{
+
+    width: 23px;
+    height: 187px;
+    position: absolute;
+    top: 507px;
+    left: 1460px;
+
+}
+#algo2{
+    width: 23px;
+    height: 187px;
+
+}
+#compra{
+    width: 111px;
+    height: 36px;
+    position: absolute;
+    top: 917px;
+    left: 1205px;
+
+}
+#compra2{
+    width: 111px;
+    height: 36px;
+
+}
+#cantidad{
+   
+    width: 84px;
+    height: 27px;
+    position: absolute;
+    top: 349px;
+    left: 1440px;
+    color: #FFFFFF;
+}
+#cantidad2{
+    width: 84px;
+    height: 27px;
+
+}
+#carro{
+    width: 33px;
+    height: 32px;
+    position: absolute;
+    top: 252px;
+    left: 1324px;
+}
+#car{
+    width: 33px;
+    height: 32px;
+}
+.lupa{
+    width: 27px;
+    height: 27px;
+    position:absolute;
+    top: 255px;
+    left: 1210px;
+}
+#lu{
+    width: 27px;
+    height: 27px;
+}
+#texto{
+   
+    width: 850px;
+    height: 55px;
+    position:absolute;
+    top: 650px;
+    left: 401px;
+
+}
+#text{
+    width: 850px;
+    height: 55px;
+
+}
+
+#texto1{
+   
+    width: 480px;
+    height: 37px;
+    position:absolute;
+    top: 720px;
+    left: 583px;
+
+}
+#text1{
+    width: 480px;
+    height: 37px;
+    
+}
+
+#texto2{
+    
+    width: 300px;
+    height: 37px;
+    position:absolute;
+    top: 780px;
+    left: 649px;
+
+}
+#text2{
+    width: 300px;
+    height: 37px;
+    
+}
+
+#texto3{
+    
+    width: 150px;
+    height: 37px;
+    position:absolute;
+    top: 850px;
+    left: 700px;
+   
+    border:#707070 2px solid;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+
+    
+}
+#text3{
+    width: 258px;
+    height: 37px;
+    
+}
+#linea{
+   
+    width: 84px;
+    height: 0px;
+    border:#212020 2px solid;
+    position:absolute;
+    top: 303px;
+    left: 1096px;
+
+}
+.boton1{
+    width: 30px;
+    height: 15px;
+    position:relative;
+    top: 60px;
+    left: 296px;
+
+}
+
+.boton2{
+    width: 20px;
+    height: 15px;
+    position:relative;
+    top: 10px;
+    left: 700px;
+
+}
+
+
+
+
