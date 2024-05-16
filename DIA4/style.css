@@ -1,0 +1,13 @@
+
+#principal{
+    width: 1918px;
+    height: 4149px;
+    background-color: black;
+    margin: auto;
+}
+#cuadro1{
+    width: 1920px;
+    height: 1080px;
+    border: red 2px solid;
+    position: relative;
+}

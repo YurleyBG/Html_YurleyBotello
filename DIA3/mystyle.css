@@ -246,12 +246,8 @@
     left: 520px;
    
     border:#707070 2px solid;
-    border-top-left-radius: 7%;
-    border-top-right-radius: 7%;
-    border-bottom-left-radius: 7%;
-    border-bottom-right-radius: 7%;
+    border-radius: 10px;
 
-    
 }
 #text3{
     width: 258px;
