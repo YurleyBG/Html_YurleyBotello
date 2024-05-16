@@ -7,6 +7,7 @@
     background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+    margin: 0% auto;
 }
 .rectangulo3{
     width: 1400px;
@@ -37,52 +38,52 @@
 }
 #rectangulo1{
     width: 110px;
-    height: 804px;
-    position: absolute;
-    top: 210px;
-    left: 1414px;
-   
+    height: 801px;
+    position: relative;
+    bottom: 1200px;
+    left: 1300px;
 }
 #logo{
  
     width: 196px;
     height: 44px;
-    position: absolute;
-    top: 243px;
-    left: 143px;
-    
+    position: relative;
+    bottom: 1950px;
+    left: 78px;
 
 }
 #saldo{
-    width: 140px;
+    width: 240px;
     height: 50px;
-    position: absolute;
-    top: 242px;
-    left: 1072px;
+    position: relative;
+    bottom: 2000px;
+    left: 900px;
     
 }
 #saldo1{
-    position:absolute;
-    top: 14px;
+    position:relative;
+    top: 16px;
+    
+
 }
 #comprar{
-    width: 230px;
+    width: 330px;
     height: 41px;
-    position: absolute;
-    top: 240px;
-    left: 790px;
+    position: relative;
+    bottom: 1990px;
+    left: 600px;
 }
 #comprar1{
-    position:absolute;
-    top: 14px;
+    position:relative;
+    bottom:44px;
 }
 #flecha{
     
     width: 24px;
     height: 14px;
-    position: absolute;
-    top: 240px;
-    left: 1460px;
+    position: relative;
+    bottom: 2100px;
+    left: 1340px;
 
 }
 #flecha1{
@@ -94,9 +95,9 @@
     
     width: 24px;
     height: 14px;
-    position: absolute;
-    top: 946px;
-    left: 1460px;
+    position: relative;
+    bottom: 1396px;
+    left: 1340px;
 }
 #second{
     width: 24px;
@@ -106,9 +107,9 @@
    
     width: 160px;
     height: 114px;
-    position: absolute;
-    top: 847px;
-    left: 1180px;
+    position: relative;
+    bottom: 1777px;
+    left: 1080px;
 }
 #verde{
     width: 160px;
@@ -118,9 +119,9 @@
   
     width: 129px;
     height: 29px;
-    position: absolute;
-    top: 876px;
-    left: 1195px;
+    position: relative;
+    bottom: 1900px;
+    left: 1095px;
 
 }
 #loguin{
@@ -132,7 +133,7 @@
 
     width: 23px;
     height: 187px;
-    position: absolute;
+    position: relative;
     top: 507px;
     left: 1460px;
 
@@ -145,9 +146,9 @@
 #compra{
     width: 111px;
     height: 36px;
-    position: absolute;
-    top: 917px;
-    left: 1205px;
+    position: relative;
+    bottom: 1829px;
+    left: 1115px;
 
 }
 #compra2{
@@ -159,10 +160,10 @@
    
     width: 84px;
     height: 27px;
-    position: absolute;
-    top: 349px;
-    left: 1440px;
-    color: #FFFFFF;
+    position: relative;
+    bottom: 2269px;
+    left: 1325px;
+    color:white;
 }
 #cantidad2{
     width: 84px;
@@ -172,9 +173,9 @@
 #carro{
     width: 33px;
     height: 32px;
-    position: absolute;
-    top: 252px;
-    left: 1324px;
+    position: relative;
+    bottom: 2105px;
+    left: 1174px;
 }
 #car{
     width: 33px;
@@ -183,9 +184,9 @@
 .lupa{
     width: 27px;
     height: 27px;
-    position:absolute;
-    top: 255px;
-    left: 1210px;
+    position:relative;
+    bottom: 2525px;
+    left: 1100px;
 }
 #lu{
     width: 27px;
@@ -195,9 +196,9 @@
    
     width: 850px;
     height: 55px;
-    position:absolute;
-    top: 650px;
-    left: 401px;
+    position:relative;
+    bottom: 2260px;
+    left: 281px;
 
 }
 #text{
@@ -210,9 +211,9 @@
    
     width: 480px;
     height: 37px;
-    position:absolute;
-    top: 720px;
-    left: 583px;
+    position:relative;
+    bottom: 2260px;
+    left: 463px;
 
 }
 #text1{
@@ -225,9 +226,9 @@
     
     width: 300px;
     height: 37px;
-    position:absolute;
-    top: 780px;
-    left: 649px;
+    position:relative;
+    bottom: 2250px;
+    left: 529px;
 
 }
 #text2{
@@ -238,17 +239,17 @@
 
 #texto3{
     
-    width: 150px;
+    width: 250px;
     height: 37px;
-    position:absolute;
-    top: 850px;
-    left: 700px;
+    position:relative;
+    bottom: 2250px;
+    left: 520px;
    
     border:#707070 2px solid;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
 
     
 }
@@ -259,31 +260,46 @@
 }
 #linea{
    
-    width: 84px;
+    width: 156px;
     height: 0px;
-    border:#212020 2px solid;
-    position:absolute;
-    top: 303px;
-    left: 1096px;
-
-}
-.boton1{
-    width: 30px;
-    height: 15px;
+    border:#212020 1px solid;
     position:relative;
-    top: 60px;
-    left: 296px;
+    bottom: 2809px;
+    left: 906px;
+
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+#precio1{
+    width: 84px;
+    height: 27px;
+    position: relative;
+    bottom: 2329px;
+    left: 1325px;
+    color:white;
+
+}
+#precio2{
+    width: 84px;
+    height: 27px;
+    position: relative;
+    bottom: 2269px;
+    left: 1325px;
+    color:white;
+
+}
+#precio3{
+    width: 84px;
+    height: 27px;
+    position: relative;
+    bottom: 2219px;
+    left: 1325px;
+    color:white;
 
 }
 
-.boton2{
-    width: 20px;
-    height: 15px;
-    position:relative;
-    top: 10px;
-    left: 700px;
-
-}
 
 
 
