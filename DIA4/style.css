@@ -6,8 +6,426 @@
     margin: auto;
 }
 #cuadro1{
+    width: 1916px;
+    height: 1080px;
+ 
+   
+}
+#img1{
     width: 1920px;
     height: 1080px;
-    border: red 2px solid;
-    position: relative;
 }
+
+#cuadro2{
+    top: 1106px;
+    left: 64px;
+    margin-left:62.33px;
+    margin-right:64px;
+    width: 1792px;
+    height: 567px;
+    border-radius:108px;
+    
+  
+
+}
+#cuadro3{
+    top: 1717px;
+    left: 64px;
+    margin-left:62.33px;
+    margin-right:64px;
+    margin-top: 44px;
+    width: 1792px;
+    height: 724px;
+    border-radius:108px;
+    background-color: #00A8E1;
+    
+}
+#cuadro4{
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    margin-left:62.33px;
+    margin-right:64px;
+    margin-top: 26px;
+    border-radius:108px;
+    background-color: #00A8E1;
+    
+}
+#cuadro5{
+    margin-left:62.33px;
+
+}
+#cuadroo1{
+    position: relative;
+    bottom: 867px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    
+
+}
+#cuadrito1{
+    width: 556px;
+    height: 313px;
+}
+#cuadroo2{
+    position: relative;
+    bottom: 1400px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    
+}
+#cuadroo3{
+    position: relative;
+    bottom: 1450px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+}
+#cuadroo4{
+    position:relative;
+    bottom: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    border: #ffffff 5px solid;
+    border-radius: 52px;
+    background-color: #ffffff;
+}
+#text{
+    font-size: 40px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    left: 60px;
+    width: 360px;
+    height: 40px;
+}
+@font-face {
+    font-family: miletra;
+    src: url("tipodeletra/Amazon Ember Light.ttf");
+    
+}
+
+#text1{
+    font-size: 60px;
+    font-family: miletra2;
+    text-align: center;
+    position: relative;
+    bottom: 1182px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    color:#ffffff;
+}
+@font-face {
+    font-family: miletra2;
+    src: url("tipodeletra/Amazon Ember Bold.ttf");
+}
+#text2{
+    font-size: 30px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    bottom: 1208px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    color:#ffffff;
+
+}
+#textt2{
+    font-size: 30px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    bottom: 1278px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    color:#ffffff;
+
+}
+#texttt2{
+    font-size: 30px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    bottom: 1348px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    color:#ffffff;
+
+}
+
+#text3{
+    font-size: 20px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    bottom:2080px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+    color:black;
+
+}
+
+#texto1{
+    width: 1792px;
+    height: 567px;
+}
+#textito{
+    font-size: 60px;
+    font-family: miletra2;
+    text-align: center;
+    position: relative;
+    margin-top:50px;
+    margin-left: 71px;
+    margin-right: 60px;
+    width: 1664px;
+    height: 60px;
+    color:#ffffff;
+
+}
+
+#textito1{
+    font-size: 50px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    bottom: 1420px;
+    left: 139px;
+    width: 1492px;
+    height: 110px;
+    color:#ffffff;
+
+
+
+}
+#textitoo1{
+    font-size: 50px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    margin-bottom: 45px;
+    bottom:1470px;
+    right:43px;
+    width: 1892px;
+    height: 110px;
+    color:#ffffff;
+
+}
+#textit{
+    font-size: 60px;
+    font-family: miletra2;
+    text-align: center;
+    position: relative;
+    top: 79px;
+    left: 510px;
+    width: 800px;
+    height: 60px;
+    color:#ffffff;
+}
+
+#img2{
+    margin-top: 130px;
+    margin-bottom:308.36px ;
+    margin-left:834.01px ;
+    margin-right: 875.68px;
+    width: 169px;
+    height: 169px
+
+}
+#textitt1{
+    font-size: 40px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    bottom: 261px;
+    left: 245px;
+    width: 1382px;
+    height: 88px;
+    color:#ffffff;
+}
+#textittt1{
+    font-size: 40px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    bottom: 301px;
+    left: 245px;
+    width: 1382px;
+    height: 88px;
+    color:#ffffff;
+}
+#texti{
+    font-size: 125px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    top: 87px;
+    left: 388px;
+    width: 1118px;
+    height: 125px;
+    color:#ffffff;
+   
+}
+#texti1{
+    font-size: 45px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    top: 136px;
+    left: 141px;
+    width: 1574px;
+    height: 99px;
+    color:#ffffff;
+   
+}
+#textii1{
+    
+    margin-top:65px ;
+    margin-bottom:396px ;
+    margin-left:663.33px ;
+    margin-right:651px ;
+    width: 584px;
+    height: 534px;
+}
+#img3{
+    position: relative;
+    top:58px;
+    width: 584px;
+    height: 534px;
+
+}
+#img4{
+    position: relative;
+    bottom:705px;
+    left:316px;
+    width: 256px;
+    height: 219px;
+    
+   
+}
+#img5{
+    position: relative;
+    bottom: 955px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+}
+#img6{
+    position: relative;
+    bottom: 1099px;
+    left: 225px;
+    width: 26px;
+    height: 18px;
+}
+#img7{
+    position: relative;
+    bottom:1119px;
+    left: 1595px;
+    width: 26px;
+    height: 18px;
+    
+         
+}
+#peli1{
+    margin-top: 63px;
+    margin-bottom:236px;
+    margin-left: 413px;
+    margin-right: 309px;
+    
+
+}
+#pelis1{
+    
+    width: 181px;
+    height: 309px;
+}
+
+#pelis2{
+    position:relative;
+    bottom:314px;
+    left:190px;
+    width: 181px;
+    height: 310px;
+}
+#pelis3{
+    
+    position:relative;
+    bottom:626px;
+    left:380px;
+    width: 181px;
+    height: 310px;
+
+}
+#pelis4{
+    position:relative;
+    bottom:940px;
+    left:570px;
+    width: 181px;
+    height: 309px;
+}
+#pelis5{
+    position:relative;
+    bottom:1252px;
+    left:760px;
+    width: 181px;
+    height: 309px;
+}
+#logo{
+    position: relative;
+    bottom: 884px;
+    left: 806px;
+    
+}
+#loguito{
+    
+    width: 430px;
+    height: 241px;
+}
+
+#powerby{
+    position: relative;
+    bottom: 224px;
+    left: 16px;
+    width: 92px;
+    height: 20px;
+    
+}
+
+#groups{
+    position: relative;
+    bottom: 135px;
+    right: 290px;
+    width: 851px;
+    height: 25px;
+}
+#texti2{
+    font-size: 45px;
+    font-family: miletra;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    left: 141px;
+    width: 1574px;
+    height: 99px;
+    color:#ffffff;
+   
+}
+
+    
+
+
+
+
