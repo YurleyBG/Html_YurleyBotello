@@ -4,6 +4,8 @@
     height: 4149px;
     background-color: black;
     margin: auto;
+
+    overflow: hidden;
 }
 #cuadro1{
     width: 1916px;
@@ -188,7 +190,7 @@
     font-family: miletra2;
     text-align: center;
     position: relative;
-    margin-top:50px;
+    top: 30px;
     margin-left: 71px;
     margin-right: 60px;
     width: 1664px;
@@ -325,18 +327,19 @@
 }
 #img6{
     position: relative;
-    bottom: 1099px;
+    bottom: 1089px;
     left: 225px;
     width: 26px;
     height: 18px;
 }
 #img7{
     position: relative;
-    bottom:1119px;
+    bottom:1159px;
     left: 1595px;
-    width: 26px;
-    height: 18px;
-    
+    width: 18px;
+    height: 26px;
+    font-size: 40px;
+    color: #707070;
          
 }
 #peli1{
@@ -385,7 +388,7 @@
 }
 #logo{
     position: relative;
-    bottom: 884px;
+    bottom: 924px;
     left: 806px;
     
 }
@@ -397,7 +400,7 @@
 
 #powerby{
     position: relative;
-    bottom: 224px;
+    bottom: 234px;
     left: 16px;
     width: 92px;
     height: 20px;
@@ -406,7 +409,7 @@
 
 #groups{
     position: relative;
-    bottom: 135px;
+    bottom: 145px;
     right: 290px;
     width: 851px;
     height: 25px;
@@ -416,15 +419,17 @@
     font-family: miletra;
     text-align: center;
     position: relative;
-    top: 120px;
+    top: 90px;
     left: 141px;
     width: 1574px;
     height: 99px;
     color:#ffffff;
    
 }
+body{
+    background-color: black;
+}
 
-    
 
 
 
