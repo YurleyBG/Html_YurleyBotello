@@ -1,0 +1,35 @@
+body{
+  margin: auto;
+}
+#cuadroprinci{
+    width: 1920px;
+    height: 1254px;
+    margin:auto;
+}
+#principal{
+    width: 1920px;
+    height: 174px;
+    overflow: hidden;
+    background-color: #3669c9;
+    position:fixed;
+    margin:auto;
+}
+#principal1{
+    margin:auto;
+    top: 174px;
+    left: -158px;
+    width: 1920px;
+    height: 1080px;
+   
+}
+#principal2{
+    width: 1920px;
+    height: 174px;
+    margin:auto;
+    overflow: hidden;
+    background-color: #3669c9;
+}
+#img{
+    width: 1920px;
+    height: 1080px;  
+}
