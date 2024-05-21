@@ -6,46 +6,54 @@
 }
 body{
     background-color: #1e1d2b;
-   
+    margin:auto; 
+    width: 1920px;
+    height: 1080px;
 }
 #principal{
-    margin:auto; 
+    margin:0 auto;
     width: 1920px;
     height: 1080px;
     font-family: letra;
     background-color: #1e1d2b;
+    overflow: hidden;
+   
 
 }
 .caja1{
-    margin: auto;
+    margin:0 auto;
     width: 1920px;
     height: 1180px;
     background-color: #1e1d2b;
-    
+    overflow: hidden;
 }
 .caja2{
-    margin: auto;
+    margin:0 auto;
     width: 1920px;
     height: 1180px;
     background-color: #1e1d2b;
+    overflow: hidden;
 }
 .caja3{
-    margin: auto;
+    margin:0 auto;
     width: 1920px;
     height: 1020px;
     background-color: #1e1d2b;
+    overflow: hidden;
 }
 .caja4{
-    margin: auto;
+    margin:0 auto;
     width: 1920px;
     height: 950px; 
     background-color: #1e1d2b;
+    overflow: hidden;
 }
 .caja5{
-    margin: auto;
+    margin:0 auto;
     width: 1920px;
     height: 460px;
     background-color: #1e1d2b;
+    overflow: hidden;
 }
 #texto1{
 
@@ -76,7 +84,7 @@ body{
 #texto4{
     font-size: 30px;
     position: relative;
-    bottom:79px;
+    bottom:80px;
     left:1415px;
     color: #ffffff;
     font-family: letra;
@@ -84,7 +92,7 @@ body{
 #texto5{
     font-size: 30px;
     position: relative;
-    bottom:113px;
+    bottom:118px;
     left:1555px;
     color: #ffffff;
     font-family: letra;
@@ -92,8 +100,8 @@ body{
 #texto6{
     font-size: 30px;
     position: relative;
-    bottom:148px;
-    left:1705px;
+    bottom:152px;
+    left:1755px;
     color: #ffffff;
     font-family: letra;
 }
@@ -154,7 +162,7 @@ body{
     width: 485px;
     height:485px;
     position: relative;
-    left: 400px;
+    left: 230px;
     top:305px;
 
 }
@@ -162,7 +170,7 @@ body{
     font-size: 38px;
     position: relative;
     bottom:195px ;
-    left: 1100px;
+    left: 870px;
     color: #fb732c; 
     font-family: letra;  
 } 
@@ -170,7 +178,7 @@ body{
     font-size: 70px;
     position: relative;
     bottom:175px ;
-    left: 1100px;
+    left: 870px;
     color: #ffffff; 
     font-family: letra;
 
@@ -179,7 +187,7 @@ body{
     font-size: 70px;
     position: relative;
     bottom:175px ;
-    left: 1100px;
+    left: 870px;
     color: #ffffff;   
     font-family: letra;
 } 
@@ -187,7 +195,7 @@ body{
     font-size: 30px;
     position: relative;
     bottom:155px ;
-    left: 1100px;
+    left: 870px;
     color: #ffffff;   
     font-family: letra;
 }
@@ -195,7 +203,7 @@ body{
     font-size: 30px;
     position: relative;
     bottom:155px ;
-    left: 1100px;
+    left: 870px;
     color: #ffffff;   
     font-family: letra;
 } 
@@ -203,7 +211,7 @@ body{
     font-size: 30px;
     position: relative;
     bottom:155px ;
-    left: 1100px;
+    left: 870px;
     color: #ffffff;   
     font-family: letra;
 } 
@@ -220,7 +228,7 @@ body{
     height:55px;
     background-color:#fb732c ;  
     position: relative;
-    left: 1100px;
+    left: 870px;
     bottom:105px;
 }
 #texts1{
@@ -377,7 +385,7 @@ body{
     font-size: 40px;
     position: relative;
     top:325px ;
-    left: 325px;
+    left: 305px;
     color: #fb732c; 
     font-family: letra;
 }#texts10{
@@ -400,7 +408,7 @@ body{
     font-size: 30px;
     position: relative;
     top:235px ;
-    left: 840px;
+    left: 800px;
     color: #ffffff; 
     font-family: letra;
 }
@@ -408,7 +416,7 @@ body{
     font-size: 30px;
     position: relative;
     top:235px ;
-    left: 780px;
+    left: 760px;
     color: #ffffff; 
     font-family: letra;
 }
@@ -416,38 +424,38 @@ body{
     font-size: 30px;
     position: relative;
     top:235px ;
-    left: 840px;
+    left: 800px;
     color: #ffffff; 
     font-family: letra; 
 }
 #textss9{
     font-size: 30px;
     position: relative;
-    top:380px ;
-    left: 240px;
+    top:390px ;
+    left: 140px;
     color: #ffffff; 
     font-family: letra;
 }
 #textss10{
     font-size: 30px;
     position: relative;
-    top:380px ;
-    left: 180px;
+    top:390px ;
+    left: 100px;
     color: #ffffff; 
     font-family: letra;
 }
 #textss11{
     font-size: 30px;
     position: relative;
-    top:380px ;
-    left: 240px;
+    top:390px ;
+    left: 140px;
     color: #ffffff; 
     font-family: letra;
 }
 #textof1{
     font-size: 30px;
     position: relative;
-    top:90px ;
+    top:75px ;
     left: 1440px;
     color: #ffffff; 
     font-family: letra;;
@@ -455,7 +463,7 @@ body{
 #textof2{
     font-size: 30px;
     position: relative;
-    top:90px ;
+    top:75px ;
     left: 1380px;
     color: #ffffff; 
     font-family: letra;
@@ -463,7 +471,7 @@ body{
 #textof3{
     font-size: 30px;
     position: relative;
-    top:90px ;
+    top:75px ;
     left: 1440px;
     color: #ffffff; 
     font-family: letra;
@@ -563,7 +571,7 @@ body{
     width: 105px;
     height: 0px;
     position: relative;
-    bottom:116px ;
+    bottom:106px ;
     left: 245px;
     font-family: letra;
 }
@@ -630,14 +638,14 @@ body{
     height: 0px;
     position: relative;
     bottom:655px ;
-    left: 975px;
+    left: 995px;
 
 }
 #finish14{
     font-size: 45px;
     position: relative;
     bottom:440px ;
-    left: 975px;
+    left: 995px;
     color:#ffffff;   
     font-family: letra;
 } 
@@ -645,7 +653,7 @@ body{
     font-size: 35px;
     position: relative;
     bottom:410px ;
-    left: 975px;
+    left: 995px;
     color:#ffffff;   
     font-family: letra;
 } 
@@ -653,7 +661,7 @@ body{
     font-size: 35px;
     position: relative;
     bottom:405px ;
-    left: 975px;
+    left: 995px;
     color:#ffffff;   
     font-family: letra;
 } 
@@ -661,7 +669,7 @@ body{
     font-size: 35px;
     position: relative;
     bottom:395px ;
-    left: 975px;
+    left: 995px;
     color:#ffffff;   
     font-family: letra;
 } 
@@ -669,7 +677,7 @@ body{
     font-size: 35px;
     position: relative;
     bottom:390px ;
-    left: 975px;
+    left: 995px;
     color:#ffffff;   
     font-family: letra;
 }
@@ -677,7 +685,7 @@ body{
     font-size: 45px;
     position: relative;
     bottom:660px ;
-    left: 1345px;
+    left: 1445px;
     color:#ffffff;   
     font-family: letra;
 }
@@ -717,4 +725,49 @@ body{
 a{
     color: white;
     text-decoration: none;
+}
+#finish22{
+    border:#fb732c 2px solid;
+    width: 105px;
+    height: 0px;
+    position: relative;
+    bottom:655px ;
+    left: 1445px;
+
+}
+#facebook{
+    position: relative;
+    bottom:630px ;
+    left: 1445px;
+}
+#imgface{
+    width: 45px;
+    height: 45px;
+}
+#instagram{
+    position: relative;
+    bottom:678px ;
+    left: 1505px;
+}
+#imginsta{
+    width: 45px;
+    height: 45px;
+}
+#whatsapp{
+    position: relative;
+    bottom:728px ;
+    left: 1565px;
+}
+#imgwhat{
+    width: 45px;
+    height: 45px;
+}
+#x{
+    position: relative;
+    bottom:775px ;
+    left: 1625px;
+}
+#imgx{
+    width: 45px;
+    height: 45px;
 }
