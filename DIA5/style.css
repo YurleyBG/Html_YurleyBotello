@@ -5,14 +5,13 @@
 
 }
 body{
-    background-color: white;
+    background-color: #1e1d2b;
    
 }
 #principal{
     margin:auto; 
     width: 1920px;
     height: 1080px;
-    border: red 1px solid;
     font-family: letra;
     background-color: #1e1d2b;
 
@@ -21,7 +20,6 @@ body{
     margin: auto;
     width: 1920px;
     height: 1180px;
-    border: red 1px solid;
     background-color: #1e1d2b;
     
 }
@@ -29,28 +27,24 @@ body{
     margin: auto;
     width: 1920px;
     height: 1180px;
-    border: red 1px solid;
     background-color: #1e1d2b;
 }
 .caja3{
     margin: auto;
     width: 1920px;
     height: 1020px;
-    border: red 1px solid;
     background-color: #1e1d2b;
 }
 .caja4{
     margin: auto;
     width: 1920px;
-    height: 950px;
-    border: red 1px solid; 
+    height: 950px; 
     background-color: #1e1d2b;
 }
 .caja5{
     margin: auto;
     width: 1920px;
     height: 460px;
-    border: red 1px solid;
     background-color: #1e1d2b;
 }
 #texto1{
