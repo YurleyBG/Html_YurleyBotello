@@ -1,12 +1,726 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face{
+    font-family:letra;
+    src: url('Cascadia.ttf');
 
+}
 body{
-    background-color: #1e1d2b; 
+    background-color: white;
+   
 }
 #principal{
+    margin:auto; 
     width: 1920px;
     height: 1080px;
-    border: rgb(221, 182, 182) 5px solid;
-    margin:auto;
+    border: red 1px solid;
+    font-family: letra;
+    background-color: #1e1d2b;
+
+}
+.caja1{
+    margin: auto;
+    width: 1920px;
+    height: 1180px;
+    border: red 1px solid;
+    background-color: #1e1d2b;
+    
+}
+.caja2{
+    margin: auto;
+    width: 1920px;
+    height: 1180px;
+    border: red 1px solid;
+    background-color: #1e1d2b;
+}
+.caja3{
+    margin: auto;
+    width: 1920px;
+    height: 1020px;
+    border: red 1px solid;
+    background-color: #1e1d2b;
+}
+.caja4{
+    margin: auto;
+    width: 1920px;
+    height: 950px;
+    border: red 1px solid; 
+    background-color: #1e1d2b;
+}
+.caja5{
+    margin: auto;
+    width: 1920px;
+    height: 460px;
+    border: red 1px solid;
+    background-color: #1e1d2b;
+}
+#texto1{
+
+    font-size: 50px;
+    position: relative;
+    top:35px ;
+    left: 10px;
+    color: #fb732c;
+    font-family: letra;
+    
+}
+#texto2{
+    font-size: 30px;
+    position: relative;
+    bottom:10px;
+    left:1125px;
+    color: #ffffff;
+    font-family: letra;
+}
+#texto3{
+    font-size: 30px;
+    position: relative;
+    bottom:44px;
+    left:1265px;
+    color: #ffffff;
+    font-family: letra;
+}
+#texto4{
+    font-size: 30px;
+    position: relative;
+    bottom:79px;
+    left:1415px;
+    color: #ffffff;
+    font-family: letra;
+}
+#texto5{
+    font-size: 30px;
+    position: relative;
+    bottom:113px;
+    left:1555px;
+    color: #ffffff;
+    font-family: letra;
+}
+#texto6{
+    font-size: 30px;
+    position: relative;
+    bottom:148px;
+    left:1705px;
+    color: #ffffff;
+    font-family: letra;
+}
+#texto7{
+
+    font-size: 110px;
+    position: relative;
+    top:25px ;
+    left: 235px;
+    color: #fb732c; 
+    font-family: letra;  
+}
+#texto8{
+
+    font-size: 50px;
+    position: relative;
+    top:55px ;
+    left: 235px;
+    color: #ffffff; 
+    font-family: letra;
+}
+#texto9{
+
+    font-size: 50px;
+    position: relative;
+    top:55px ;
+    left: 235px;
+    color: #ffffff; 
+    font-family: letra;
+}
+#principal1{
+    width: 385px;
+    height:105px;
+    background-color: #fb732c;  
+    position: relative;
+    left: 240px;
+    top:145px;
+}
+#texto10{
+    font-size: 40px;
+    position: relative;
+    top:25px ;
+    left: 0px;
+    color: #ffffff; 
+    justify-content: center;
+    text-align: center;
+    font-family: letra;
+}
+#img1{
+    width: 485px;
+    height:485px;
+    position: relative;
+    left: 1200px;
+    bottom:405px;
+
+}
+#img2{
+    width: 485px;
+    height:485px;
+    position: relative;
+    left: 400px;
+    top:305px;
+
+}
+#text1{
+    font-size: 38px;
+    position: relative;
+    bottom:195px ;
+    left: 1100px;
+    color: #fb732c; 
+    font-family: letra;  
+} 
+#text2{
+    font-size: 70px;
+    position: relative;
+    bottom:175px ;
+    left: 1100px;
+    color: #ffffff; 
+    font-family: letra;
+
+}
+#text3{
+    font-size: 70px;
+    position: relative;
+    bottom:175px ;
+    left: 1100px;
+    color: #ffffff;   
+    font-family: letra;
+} 
+#text4{
+    font-size: 30px;
+    position: relative;
+    bottom:155px ;
+    left: 1100px;
+    color: #ffffff;   
+    font-family: letra;
+}
+#text5{
+    font-size: 30px;
+    position: relative;
+    bottom:155px ;
+    left: 1100px;
+    color: #ffffff;   
+    font-family: letra;
+} 
+#text6{
+    font-size: 30px;
+    position: relative;
+    bottom:155px ;
+    left: 1100px;
+    color: #ffffff;   
+    font-family: letra;
+} 
+#text7{
+    font-size: 25px;
+    position: relative;
+    top:10px ;
+    left: 35px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#principal2{
+    width: 225px;
+    height:55px;
+    background-color:#fb732c ;  
+    position: relative;
+    left: 1100px;
+    bottom:105px;
+}
+#texts1{
+    font-size: 38px;
+    position: relative;
+    top:95px ;
+    left: 850px;
+    color: #fb732c; 
+    font-family: letra;
+}
+#texts2{
+    font-size: 60px;
+    position: relative;
+    top:115px ;
+    left: 560px;
+    color: #ffffff; 
+    font-family: letra; 
+}
+#cuadro1{
+    width: 450px;
+    height:450px;
+    background-color:#ffefe8;   
+    position: relative;
+    left: 260px;
+    top:405px; 
+}
+#cuadro2{
+    width: 450px;
+    height:450px;
+    background-color:#ffefe8; 
+    position: relative;
+    left: 740px;
+    bottom:45px; 
+}
+#cuadro3{
+    width: 450px;
+    height:450px;
+    background-color:#ffefe8;  
+    position: relative;
+    left: 1220px;
+    bottom:495px; 
+}
+#img3{
+    width: 200px;
+    height:200px;
+    position: relative;
+    left: 125px;
+    top:45px;
+}
+#tex1{
+    font-size: 40px;
+    position: relative;
+    top:90px ;
+    left: 85px;
+    color:black;
+    font-family: letra;   
+    
+}
+#tex2{
+    font-size: 30px;
+    position: relative;
+    top:90px ;
+    left: 145px;
+    color:black;   
+    font-family: letra;
+}
+#tex3{
+    font-size: 30px;
+    position: relative;
+    top:90px ;
+    left: 178px;
+    color:#fb732c;   
+    font-family: letra;
+}
+#img4{
+    width: 200px;
+    height:200px;
+    position: relative;
+    left: 125px;
+    top:45px;
 }
 
+#texx2{
+    font-size: 30px;
+    position: relative;
+    top:90px ;
+    left: 145px;
+    color:black;   
+    font-family: letra;
+}
+#texx3{
+    font-size: 30px;
+    position: relative;
+    top:90px ;
+    left: 178px;
+    color:#fb732c;   
+    font-family: letra;
+}
+#img5{
+    width: 200px;
+    height:200px;
+    position: relative;
+    left: 125px;
+    top:45px;
+}
+
+#texxs2{
+    font-size: 30px;
+    position: relative;
+    top:90px ;
+    left: 145px;
+    color:black;   
+    font-family: letra;
+}
+#texxs3{
+    font-size: 30px;
+    position: relative;
+    top:90px ;
+    left: 178px;
+    color:#fb732c;   
+    font-family: letra;
+}
+#texts6{
+    font-size: 38px;
+    position: relative;
+    top:95px ;
+    left: 880px;
+    color: #fb732c; 
+    font-family: letra; 
+}
+
+#img6{
+    width: 300px;
+    height:300px;
+    position: relative;
+    left: 260px;
+    top:235px; 
+}
+#img7{
+    width: 300px;
+    height:300px;
+    position: relative;
+    left: 590px;
+    top:235px; 
+}
+#img8{
+    width: 300px;
+    height:300px;
+    position: relative;
+    left: 860px;
+    top:195px; 
+}
+#texts8{
+    font-size: 40px;
+    position: relative;
+    top:325px ;
+    left: 325px;
+    color: #fb732c; 
+    font-family: letra;
+}#texts10{
+    font-size: 40px;
+    position: relative;
+    top:177px ;
+    left: 875px;
+    color: #fb732c; 
+    font-family: letra;
+}#texts12{
+    font-size: 40px;
+    position: relative;
+    top:35px ;
+    left: 1495px;
+    color: #fb732c; 
+    font-family: letra;
+    
+}
+#texts11{
+    font-size: 30px;
+    position: relative;
+    top:235px ;
+    left: 840px;
+    color: #ffffff; 
+    font-family: letra;
+}
+#texts14{
+    font-size: 30px;
+    position: relative;
+    top:235px ;
+    left: 780px;
+    color: #ffffff; 
+    font-family: letra;
+}
+#texts15{
+    font-size: 30px;
+    position: relative;
+    top:235px ;
+    left: 840px;
+    color: #ffffff; 
+    font-family: letra; 
+}
+#textss9{
+    font-size: 30px;
+    position: relative;
+    top:380px ;
+    left: 240px;
+    color: #ffffff; 
+    font-family: letra;
+}
+#textss10{
+    font-size: 30px;
+    position: relative;
+    top:380px ;
+    left: 180px;
+    color: #ffffff; 
+    font-family: letra;
+}
+#textss11{
+    font-size: 30px;
+    position: relative;
+    top:380px ;
+    left: 240px;
+    color: #ffffff; 
+    font-family: letra;
+}
+#textof1{
+    font-size: 30px;
+    position: relative;
+    top:90px ;
+    left: 1440px;
+    color: #ffffff; 
+    font-family: letra;;
+}
+#textof2{
+    font-size: 30px;
+    position: relative;
+    top:90px ;
+    left: 1380px;
+    color: #ffffff; 
+    font-family: letra;
+}
+#textof3{
+    font-size: 30px;
+    position: relative;
+    top:90px ;
+    left: 1440px;
+    color: #ffffff; 
+    font-family: letra;
+}
+#cuadrodecaja4{
+    margin: 250px auto;
+    width: 1655px;
+    height:450px;
+    background-color:#ffefe8; 
+    border: black 7px solid;
+}
+#texti1{
+    font-size: 60px;
+    position: relative;
+    bottom:590px ;
+    left: 640px;
+    color: black; 
+    font-family: letra;
+
+}
+#texti2{
+    font-size: 60px;
+    position: relative;
+    bottom:590px ;
+    left: 800px;
+    color: black; 
+    font-family: letra;
+
+}
+#texti3{
+    font-size: 25px;
+    position: relative;
+    top:10px ;
+    left: 45px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#rectan2{
+    width: 225px;
+    height:55px;
+    background-color:#fb732c ;  
+    position: relative;
+    left: 830px;
+    bottom:535px;
+}
+#finish1{
+    font-size: 45px;
+    position: relative;
+    top:85px ;
+    left: 245px;
+    color:#ffffff;   
+    font-family: letra;
+
+}
+#finish2{
+    font-size: 35px;
+    position: relative;
+    top:120px ;
+    left: 245px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish3{
+    font-size: 35px;
+    position: relative;
+    top:125px ;
+    left: 245px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish4{
+    font-size: 35px;
+    position: relative;
+    top:130px ;
+    left: 245px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish5{
+    font-size: 35px;
+    position: relative;
+    top:135px ;
+    left: 245px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish6{
+    font-size: 35px;
+    position: relative;
+    top:140px ;
+    left: 245px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish7{
+    border:#fb732c 2px solid;
+    width: 105px;
+    height: 0px;
+    position: relative;
+    bottom:116px ;
+    left: 245px;
+    font-family: letra;
+}
+#finish20{
+    border:#fb732c 2px solid;
+    width: 105px;
+    height: 0px;
+    position: relative;
+    bottom:650px ;
+    left: 575px;
+    font-family: letra;
+}
+#finish8{
+    font-size: 45px;
+    position: relative;
+    bottom:180px ;
+    left: 575px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish9{
+    font-size: 35px;
+    position: relative;
+    bottom:140px ;
+    left: 575px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish10{
+    font-size: 35px;
+    position: relative;
+    bottom:135px ;
+    left: 575px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish11{
+    font-size: 35px;
+    position: relative;
+    bottom:130px ;
+    left: 575px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish12{
+    font-size: 35px;
+    position: relative;
+    bottom:125px ;
+    left: 575px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish13{
+    font-size: 35px;
+    position: relative;
+    bottom:120px ;
+    left: 575px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish21{
+    border:#fb732c 2px solid;
+    width: 105px;
+    height: 0px;
+    position: relative;
+    bottom:655px ;
+    left: 975px;
+
+}
+#finish14{
+    font-size: 45px;
+    position: relative;
+    bottom:440px ;
+    left: 975px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish15{
+    font-size: 35px;
+    position: relative;
+    bottom:410px ;
+    left: 975px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish16{
+    font-size: 35px;
+    position: relative;
+    bottom:405px ;
+    left: 975px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish17{
+    font-size: 35px;
+    position: relative;
+    bottom:395px ;
+    left: 975px;
+    color:#ffffff;   
+    font-family: letra;
+} 
+#finish18{
+    font-size: 35px;
+    position: relative;
+    bottom:390px ;
+    left: 975px;
+    color:#ffffff;   
+    font-family: letra;
+}
+#finish19{
+    font-size: 45px;
+    position: relative;
+    bottom:660px ;
+    left: 1345px;
+    color:#ffffff;   
+    font-family: letra;
+}
+#texx1{
+    font-size: 40px;
+    position: relative;
+    top:90px ;
+    left: 5px;
+    color:black;   
+    font-family: letra;
+}
+#texxs1{
+    font-size: 40px;
+    position: relative;
+    top:90px ;
+    left: 45px;
+    color:black;   
+    font-family: letra;
+}
+#texts7{
+    font-size: 60px;
+    position: relative;
+    top:125px ;
+    left: 500px;
+    color: #ffffff; 
+    font-family: letra;
+    
+}
+#texts2{
+    font-size: 85px;
+    position: relative;
+    top:215px ;
+    left: 350px;
+    color: #ffffff; 
+    font-family: letra; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
