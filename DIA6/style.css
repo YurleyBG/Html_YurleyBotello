@@ -179,6 +179,7 @@ body{
     position: absolute;
     width: 792px;
     height: 63px;
+    font-size: 45px;
    
 }
 #texto3{
@@ -202,7 +203,7 @@ body{
     position: absolute;
     width: 792px;
     height: 63px;
-   
+    font-size: 20px;
 }
 #image1{
     position: relative;
@@ -362,14 +363,14 @@ body{
 #calendario{
     position:absolute;
     top: 496px;
-    left: 1124px;
-    width: 52px;
-    height: 58px;
+    left: 1150px;
+    width: 42px;
+    height: 48px;
 }
 #img8{
     position:absolute;
-    width: 52px;
-    height: 58px;
+    width: 42px;
+    height: 48px;
 }
 #texto13{
     position:absolute;
