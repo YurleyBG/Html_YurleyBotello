@@ -184,7 +184,7 @@ body{
 #barra4{
     position:relative;
     top: 291px;
-    left: 628px;
+    left: 608px;
     width: 311px;
     height: 79px;
     background-color: #3669c9;
@@ -194,11 +194,15 @@ body{
 #texto2{
     position: absolute;
     top:35px;
-    left:54px;
+    left:90px;
     width: 1000px;
     height: 84px;
     color:white;
     line-height: 10px;
     font-size: 20px;
     font-family: letra1;
+}
+a{
+    color:white;
+    text-decoration: none;
 }

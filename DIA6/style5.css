@@ -275,3 +275,7 @@ body{
     color:white;
     font-family: letra;
 }
+a{
+    color:white;
+    text-decoration: none;
+}

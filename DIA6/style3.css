@@ -257,11 +257,15 @@ body{
 }
 #texto12{
     position:absolute;
-    left:55px;
-    top:4px;
+    left:58px;
+    top:10px;
     width: 186px;
     height: 42px;
-    font-size:25px;
+    font-size:18px;
     color:white;
     font-family: letra;
+}
+a{
+    color:white;
+    text-decoration: none;
 }

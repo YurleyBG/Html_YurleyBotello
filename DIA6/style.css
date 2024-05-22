@@ -380,3 +380,10 @@ body{
     color:black;
 
 }
+a{
+    color:white;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
