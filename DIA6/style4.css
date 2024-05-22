@@ -201,6 +201,8 @@ body{
     position: absolute;
     width: 792px;
     height: 63px;
+    font-size: 20px;
+    font-weight: lighter;
    
 }
 #texto3{
@@ -224,21 +226,11 @@ body{
     position: absolute;
     width: 792px;
     height: 63px;
-    font-size: 60px;
+    font-size: 30px;
+    font-weight: lighter;
    
 }
-#calendario{
-    position:absolute;
-    top: 576px;
-    left: 1124px;
-    width: 52px;
-    height: 58px;
-}
-#img8{
-    position:absolute;
-    width: 52px;
-    height: 58px;
-}
+
 #texto13{
     position:absolute;
     top: 596px;

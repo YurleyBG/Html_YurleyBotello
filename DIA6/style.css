@@ -181,6 +181,7 @@ body{
     height: 63px;
     font-size: 45px;
    
+   
 }
 #texto3{
     position:relative;
@@ -204,6 +205,7 @@ body{
     width: 792px;
     height: 63px;
     font-size: 20px;
+    font-weight: lighter;
 }
 #image1{
     position: relative;
@@ -360,18 +362,7 @@ body{
     color:white;
     font-family: letra;
 }
-#calendario{
-    position:absolute;
-    top: 496px;
-    left: 1150px;
-    width: 42px;
-    height: 48px;
-}
-#img8{
-    position:absolute;
-    width: 42px;
-    height: 48px;
-}
+
 #texto13{
     position:absolute;
     top: 516px;
