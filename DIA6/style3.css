@@ -1,0 +1,267 @@
+body{
+    margin: auto;
+}
+@font-face {
+    font-family: letra;
+    src: url('tipoletra/MyriadPro-Light.otf');
+}
+@font-face {
+    font-family: letra1;
+    src: url('tipoletra/MYRIADPRO-REGULAR.OTF');
+}
+#cuadroprinci{
+    width: 1920px;
+    height: 1464px;
+    margin:auto;
+
+}
+#barra1{
+    position:fixed;
+    top: -5px;
+    width: 1920px;
+    height: 174px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #3669c9;
+    
+    
+}
+#principal1{
+    margin:auto;
+    position: relative;
+    top: 127px;
+    left: 1px;
+    width: 1920px;
+    height: 1464px;
+    overflow: hidden;
+}
+#barra2{
+    width: 1920px;
+    height: 174px;
+    position: relative;
+    bottom: 47px;
+    overflow: hidden;
+    background-color: #3669c9;
+    margin:auto;
+}
+#img{
+    position: relative;
+    bottom:27px;
+    width: 1920px;
+    height: 1464px;   
+}
+#cuadro1{
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 870px;
+    background-color: white;
+    border-radius: 50px;
+}
+#inicio{
+    position:relative;
+    top:58px;
+    left:245px;
+    font-size:30px;
+    color:white;
+    font-family: letra;
+
+}
+#tramite{
+    position:relative;
+    top:22px;
+    left:445px;
+    font-size:30px;
+    color:white;
+    font-family: letra;
+}
+#imagen{
+    position: relative;
+    width: 345px;
+    height:75px;
+    bottom:26px;
+    left:745px;
+
+}
+#img1{
+    position: absolute;
+    width: 345px;
+    height:75px;
+}
+#conctacto{
+    position:relative;
+    bottom:86px;
+    left:1275px;
+    font-size:30px;
+    color:white;
+    font-family: letra;
+}
+#barra3{
+    position:relative;
+    bottom:136px;
+    left:1575px;
+    width: 290px;
+    height:65px;
+    border-radius: 45px;
+    background-color: white;
+
+}
+#consultar{
+    position:relative;
+    left:85px;
+    top:15px;
+    font-size:30px;
+    color:black;
+    font-family: letra;
+}
+#img2{
+    position:absolute ;
+    width: 1920px;
+    height: 274px;
+    left:-745px;
+    top:25px;
+}
+#imagendian{
+    position: relative;
+    top: 51px;
+    left: 600px;
+    width: 313px;
+    height: 53px;
+   
+}
+#img3{
+    position: absolute;
+    width: 313px;
+    height: 53px; 
+}
+#image3{
+    position: relative;
+    top: 67px;
+    left: 725px;
+    width: 71px;
+    height: 42px;
+}
+#img7{
+    position: absolute;
+    width: 71px;
+    height: 42px;
+}
+#texto8{
+    position: absolute;
+    top: 169px;
+    left: 610px;
+    width: 460px;
+    height: 24px;
+    font-size:24px;
+    color:black;
+    font-family: letra1;
+}
+#texto9{
+    position: absolute;
+    top: 229px;
+    left: 440px;
+    width: 760px;
+    height: 24px;
+    font-size:24px;
+    color:black;
+    font-family: letra1;
+}
+#texto10{
+    position: absolute;
+    top: 259px;
+    left: 100px;
+    width: 1300px;
+    height: 24px;
+    font-size:15px;
+    color:black;
+    font-family: letra;
+    line-height: 5px;  
+}
+#ingrese1{
+    position: relative;
+    top: 288px;
+    left: 358px;
+    width: 792px;
+    height: 63px;
+}
+#input1{
+    position: absolute;
+    width: 792px;
+    height: 63px;
+   
+}
+#texto3{
+    position:relative;
+    top: 308px;
+    left: 358px;
+    width: 666px;
+    height: 64px;
+    font-size:21px;
+    color:black;
+    font-family: letra1;
+}
+#ingrese2{
+    position: relative;
+    top: 288px;
+    left: 358px;
+    width: 792px;
+    height: 63px;
+}
+#input2{
+    position: absolute;
+    width: 792px;
+    height: 63px;
+   
+}
+#texto2{
+    position:relative;
+    top: 318px;
+    left: 358px;
+    width: 666px;
+    height: 64px;
+    font-size:21px;
+    color:black;
+    font-family: letra1;
+}
+#image1{
+    position: relative;
+    top: 299px;
+    left: 575px;
+    width: 401px;
+    height: 113px;
+}
+#img5{
+    position: absolute;
+    width: 401px;
+    height: 113px;
+}
+#texto4{
+    position:relative;
+    top: 298px;
+    left: 558px;
+    width: 544px;
+    height: 11px;
+    font-size:11px;
+    color:black;
+    font-family: letra1;
+}
+#barra6{
+    position: absolute;
+    left:686px;
+    top:795px;
+    width: 166px;
+    height: 42px;
+    background-color: #4184ff;
+    border-radius: 25px;
+}
+#texto12{
+    position:absolute;
+    left:55px;
+    top:4px;
+    width: 186px;
+    height: 42px;
+    font-size:25px;
+    color:white;
+    font-family: letra;
+}

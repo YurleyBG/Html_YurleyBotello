@@ -1,0 +1,204 @@
+body{
+    margin: auto;
+}
+@font-face {
+    font-family: letra;
+    src: url('tipoletra/MyriadPro-Light.otf');
+}
+@font-face {
+    font-family: letra1;
+    src: url('tipoletra/MYRIADPRO-REGULAR.OTF');
+}
+#cuadroprinci{
+    width: 1920px;
+    height: 1464px;
+    margin:auto;
+
+}
+#barra1{
+    position:fixed;
+    top: -5px;
+    width: 1920px;
+    height: 174px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #3669c9;
+    
+    
+}
+#principal1{
+    margin:auto;
+    position: relative;
+    top: 127px;
+    left: 1px;
+    width: 1920px;
+    height: 1464px;
+    overflow: hidden;
+}
+#barra2{
+    width: 1920px;
+    height: 174px;
+    position: relative;
+    bottom: 47px;
+    overflow: hidden;
+    background-color: #3669c9;
+    margin:auto;
+}
+#img{
+    position: relative;
+    bottom:27px;
+    width: 1920px;
+    height: 1464px;   
+}
+#cuadro1{
+    position: absolute;
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 870px;
+    background-color: white;
+    border-radius: 50px;
+}
+#inicio{
+    position:relative;
+    top:58px;
+    left:245px;
+    font-size:30px;
+    color:white;
+    font-family: letra;
+
+}
+#tramite{
+    position:relative;
+    top:22px;
+    left:445px;
+    font-size:30px;
+    color:white;
+    font-family: letra;
+}
+#imagen{
+    position: relative;
+    width: 345px;
+    height:75px;
+    bottom:26px;
+    left:745px;
+
+}
+#img1{
+    position: absolute;
+    width: 345px;
+    height:75px;
+}
+#conctacto{
+    position:relative;
+    bottom:86px;
+    left:1275px;
+    font-size:30px;
+    color:white;
+    font-family: letra;
+}
+#barra3{
+    position:relative;
+    bottom:136px;
+    left:1575px;
+    width: 290px;
+    height:65px;
+    border-radius: 45px;
+    background-color: white;
+
+}
+#consultar{
+    position:relative;
+    left:85px;
+    top:15px;
+    font-size:30px;
+    color:black;
+    font-family: letra;
+}
+#img2{
+    position:absolute ;
+    width: 1920px;
+    height: 274px;
+    left:-745px;
+    top:25px;
+}
+#imagendian{
+    position: relative;
+    top: 51px;
+    left: 600px;
+    width: 313px;
+    height: 53px;
+   
+}
+#img3{
+    position: absolute;
+    width: 313px;
+    height: 53px; 
+}
+#circulo{
+    position:relative;
+    top: 109px;
+    left: 655px;
+    width: 231px;
+    height: 231px;
+}
+#img4{
+    position: absolute;
+    width: 231px;
+    height: 231px;
+}
+#texto{
+    position: absolute;
+    top: 424px;
+    left: 595px;
+    width: 550px;
+    height: 39px;
+    color: black;
+    font-size: 39px;
+    font-family: letra1;
+}
+#texto1{
+    position: absolute;
+    top: 470px;
+    left: 250px;
+    width: 1000px;
+    height: 84px;
+    color: black;
+    line-height: 10px;
+    font-size: 35px;
+    font-family: letra1;
+
+}
+#image{
+    position:relative;
+    top: 295px;
+    left: 628px;
+    width: 264px;
+    height: 88px;
+}
+#img5{
+    padding:absolute ;
+    width: 264px;
+    height: 88px;
+}
+#barra4{
+    position:relative;
+    top: 291px;
+    left: 628px;
+    width: 311px;
+    height: 79px;
+    background-color: #3669c9;
+    border-radius: 50px;
+}
+
+#texto2{
+    position: absolute;
+    top:35px;
+    left:54px;
+    width: 1000px;
+    height: 84px;
+    color:white;
+    line-height: 10px;
+    font-size: 20px;
+    font-family: letra1;
+}

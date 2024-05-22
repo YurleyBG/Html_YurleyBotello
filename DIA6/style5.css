@@ -1,5 +1,5 @@
 body{
-  margin: auto;
+    margin: auto;
 }
 @font-face {
     font-family: letra;
@@ -11,9 +11,9 @@ body{
 }
 #cuadroprinci{
     width: 1920px;
-    height: 1637px;
+    height: 1464px;
     margin:auto;
- 
+
 }
 #barra1{
     position:fixed;
@@ -24,7 +24,7 @@ body{
     margin: auto;
     background-color: #3669c9;
     
-   
+    
 }
 #principal1{
     margin:auto;
@@ -32,30 +32,30 @@ body{
     top: 127px;
     left: 1px;
     width: 1920px;
-    height: 1645px;
+    height: 1464px;
     overflow: hidden;
 }
 #barra2{
     width: 1920px;
     height: 174px;
     position: relative;
-    bottom: -127px;
+    bottom: 47px;
     overflow: hidden;
     background-color: #3669c9;
     margin:auto;
 }
 #img{
     position: relative;
-    bottom:-27px;
+    bottom:27px;
     width: 1920px;
-    height: 1637px;   
+    height: 1464px;   
 }
 #cuadro1{
     position: absolute;
     top: 191px;
     left: 167px;
     width: 1545px;
-    height: 1225px;
+    height: 970px;
     background-color: white;
     border-radius: 50px;
 }
@@ -82,7 +82,7 @@ body{
     height:75px;
     bottom:26px;
     left:745px;
-    
+
 }
 #img1{
     position: absolute;
@@ -105,7 +105,7 @@ body{
     height:65px;
     border-radius: 45px;
     background-color: white;
-    
+
 }
 #consultar{
     position:relative;
@@ -125,7 +125,7 @@ body{
 #imagendian{
     position: relative;
     top: 51px;
-    left: 630px;
+    left: 600px;
     width: 313px;
     height: 53px;
    
@@ -135,32 +135,39 @@ body{
     width: 313px;
     height: 53px; 
 }
+#image3{
+    position: relative;
+    top: 67px;
+    left: 725px;
+    width: 71px;
+    height: 42px;
+}
 #texto1{
     position:relative;
-    top: 99px;
-    left: 460px;
-    width: 666px;
+    top: 89px;
+    left: 364px;
+    width: 866px;
     height: 64px;
     font-size:26px;
     color:black;
     font-family: letra1;
-    line-height: 5px;
+    line-height: 7px;
 }
 #image{
-    position: relative;
-    top: 109px;
-    left: 675px;
-    width: 231px;
-    height: 77px;
+    position:relative;
+    top: 105px;
+    left: 628px;
+    width: 264px;
+    height: 88px;
 }
-#img4{
-    position: absolute;
-    width: 231px;
-    height: 77px;
+#img5{
+    padding:absolute ;
+    width: 264px;
+    height: 88px;
 }
 #texto2{
     position:relative;
-    top: 139px;
+    top: 119px;
     left: 408px;
     width: 666px;
     height: 64px;
@@ -170,7 +177,7 @@ body{
 }
 #ingrese1{
     position: relative;
-    top: 108px;
+    top: 88px;
     left: 404px;
     width: 792px;
     height: 63px;
@@ -183,7 +190,7 @@ body{
 }
 #texto3{
     position:relative;
-    top: 139px;
+    top: 109px;
     left: 408px;
     width: 666px;
     height: 64px;
@@ -193,7 +200,7 @@ body{
 }
 #ingrese2{
     position: relative;
-    top: 108px;
+    top: 78px;
     left: 404px;
     width: 792px;
     height: 63px;
@@ -204,179 +211,67 @@ body{
     height: 63px;
    
 }
+#texto4{
+    position:relative;
+    top: 99px;
+    left: 408px;
+    width: 666px;
+    height: 64px;
+    font-size:21px;
+    color:black;
+    font-family: letra1;
+}
+#ingrese3{
+    position: relative;
+    top: 78px;
+    left: 404px;
+    width: 792px;
+    height: 63px;
+}
+#input3{
+    position: absolute;
+    width: 792px;
+    height: 63px;
+   
+}
 #image1{
     position: relative;
-    top: 149px;
-    left: 675px;
-    width: 231px;
-    height: 77px;
+    top: 99px;
+    left: 575px;
+    width: 401px;
+    height: 113px;
 }
 #img5{
     position: absolute;
-    width: 231px;
-    height: 77px;
+    width: 401px;
+    height: 113px;
 }
-#texto4{
+#texto31{
     position:relative;
-    top: 159px;
-    left: 514px;
-    width: 666px;
-    height: 64px;
+    top: 95px;
+    left: 558px;
+    width: 544px;
+    height: 11px;
     font-size:11px;
     color:black;
-    font-family: letra;
-}
-#barra4{
-    position: relative;
-    top:126px;
-    left:706px;
-    width: 165px;
-    height: 42px;
-    background-color: #4184ff;
-    border-radius: 50px;
-}
-#texto5{
-    position: relative;
-    left:45px;
-    top:10px;
-    width: 165px;
-    height: 42px;
-    font-size:18px;
-    color:white;
-    font-family: letra;
-}
-#texto6{
-    position: relative;
-    left:285px;
-    top:150px;
-    width: 1545px;
-    height: 1225px;
-    font-size:35px;
-    color:black;
     font-family: letra1;
-}
-#image2{
-    position: relative;
-    left:495px;
-    bottom:1010px;
-    width: 63px;
-    height: 84px;
-}
-#img6{
-    position: absolute;
-    width: 63px;
-    height: 84px;
-}
-#image3{
-    position: relative;
-    left:995px;
-    bottom:1095px;
-    width: 63px;
-    height: 84px;
-}
-#img7{
-    position: absolute;
-    width: 63px;
-    height: 84px;
-}
-#texto7{
-    position: relative;
-    top:-1080px;
-    left:425px;
-    width: 1545px;
-    height: 1225px;
-    font-size:35px;
-    color:black;
-    font-family: letra1;
-}
-#texto8{
-    position: absolute;
-    top: 941px;
-    left: 829px;
-    width: 480px;
-    height: 35px;;
-    font-size:35px;
-    color:black;
-    font-family: letra1;
-}
-#texto9{
-    position:absolute;
-    top: 980px;
-    left: 278px;
-    width: 548px;
-    height: 86px;
-    font-size:17px;
-    color:black;
-    font-family: letra;
-    line-height: 10px;
-}
-#texto10{
-    position:absolute;
-    top: 980px;
-    left: 778px;
-    width: 548px;
-    height: 86px;
-    font-size:17px;
-    color:black;
-    font-family: letra;
-    line-height: 10px;
-}
-#barra5{
-    position: absolute;
-    top:1126px;
-    left:466px;
-    width: 165px;
-    height: 42px;
-    background-color: #4184ff;
-    border-radius: 50px;
-}
-#texto11{
-    position: absolute;
-    left:50px;
-    top:10px;
-    width: 165px;
-    height: 42px;
-    font-size:18px;
-    color:white;
-    font-family: letra;
 }
 #barra6{
     position: absolute;
-    top:1126px;
-    left:986px;
-    width: 165px;
-    height: 42px;
+    left:636px;
+    top:855px;
+    width: 300px;
+    height: 76px;
     background-color: #4184ff;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 #texto12{
     position:absolute;
-    left:50px;
-    top:10px;
+    left:95px;
+    top:24px;
     width: 165px;
     height: 42px;
-    font-size:18px;
+    font-size:25px;
     color:white;
     font-family: letra;
-}
-#calendario{
-    position:absolute;
-    top: 496px;
-    left: 1124px;
-    width: 52px;
-    height: 58px;
-}
-#img8{
-    position:absolute;
-    width: 52px;
-    height: 58px;
-}
-#texto13{
-    position:absolute;
-    top: 516px;
-    left: 424px;
-    font-size:20px;
-    font-family: letra;
-    color:black;
-
 }
