@@ -120,10 +120,10 @@
         font-family: miletra2;
         text-align: center;
         position: relative;
-        bottom: 1182px;
-        left: 389px;
-        width: 1151px;
-        height: 60px;
+        bottom: 138vh;
+        left: 20vw;
+        width: 60vw;
+        height: 10vh;
         color:#ffffff;
     }
     @font-face {
@@ -135,10 +135,10 @@
         font-family: miletra;
         text-align: center;
         position: relative;
-        bottom: 1208px;
-        left: 380px;
-        width: 1160px;
-        height: 102px;
+        bottom: 145vh;
+        left: 18vw;
+        width: 65vw;
+        height: 5vh;
         color:#ffffff;
 
     }
@@ -147,10 +147,10 @@
         font-family: miletra;
         text-align: center;
         position: relative;
-        bottom: 1278px;
-        left: 380px;
-        width: 1160px;
-        height: 102px;
+        bottom: 147vh;
+        left: 18vw;
+        width: 65vw;
+        height: 5vh;
         color:#ffffff;
 
     }
@@ -159,10 +159,10 @@
         font-family: miletra;
         text-align: center;
         position: relative;
-        bottom: 1348px;
-        left: 380px;
-        width: 1160px;
-        height: 102px;
+        bottom: 149vh;
+        left: 18vw;
+        width: 65vw;
+        height: 5vh;
         color:#ffffff;
 
     }
