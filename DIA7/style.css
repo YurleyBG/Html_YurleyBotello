@@ -116,7 +116,7 @@
     }
 
     #text1{
-        font-size: 60px;
+        font-size:2.5vw;
         font-family: miletra2;
         text-align: center;
         position: relative;
@@ -131,37 +131,40 @@
         src: url("tipodeletra/Amazon Ember Bold.ttf");
     }
     #text2{
-        font-size: 30px;
+        
+        position: relative;
+        font-size: 34px;
         font-family: miletra;
         text-align: center;
-        position: relative;
-        bottom: 145vh;
-        left: 18vw;
-        width: 65vw;
+        bottom: 143vh;
+        left: 1vw;
+        width: 100vw;
         height: 5vh;
         color:#ffffff;
 
     }
     #textt2{
-        font-size: 30px;
+        
+        position: relative;
+        font-size: 34px;
         font-family: miletra;
         text-align: center;
-        position: relative;
-        bottom: 147vh;
-        left: 18vw;
-        width: 65vw;
+        bottom: 145vh;
+        left: 1vw;
+        width: 100vw;
         height: 5vh;
         color:#ffffff;
 
     }
     #texttt2{
-        font-size: 30px;
+       
+        position: relative;
+        font-size: 34px;
         font-family: miletra;
         text-align: center;
-        position: relative;
-        bottom: 149vh;
-        left: 18vw;
-        width: 65vw;
+        bottom: 147vh;
+        left: 1vw;
+        width: 100vw;
         height: 5vh;
         color:#ffffff;
 
