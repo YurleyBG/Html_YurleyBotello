@@ -8,13 +8,15 @@
     
 }
 body{
-    background-color: black;
+   background-color: black;
+   
 }
 .yurley1{
     background-image: url(imagenes/fondop.png);
     background-size: 100vw;
     background-repeat: no-repeat;
     height: 135vh;
+    min-height:56vw;
     max-height: 56vw;
     text-align: center;
     overflow: hidden;
@@ -74,7 +76,7 @@ body{
     margin-top:3%;
     width:20vw;
     height: 5vw;
-    font-size:2vw;
+    font-size:1.5vw;
     border:none;
     background-color: white;
     border-radius:70px;
@@ -89,8 +91,8 @@ body{
 #cuadro2{
     margin-left: 2%;
     margin-top: 3%;
-    width:90vw;
-    height:29.53vw; 
+    width:91vw;
+    height:29.53vw;
     overflow: hidden; 
 }
 #cuadro3{
@@ -126,13 +128,13 @@ body{
 }
 #textito{
     margin-top: 18.21vw;
-    margin-left: -68vw;
+    margin-left: -69vw;
     width: 89.7vw;
     height: 5.72vw; 
     font-family: miletra; 
 }
 #writer{
-    font-size: 2.6vw;
+    font-size: 2.4vw;
     width: 89.7vw;
     height: 5.72vw;
     color: white;
@@ -168,12 +170,12 @@ body{
 #textomani{
     color:white;
     width: 67.8vw;
-    margin-left: 1.67vw;
-    margin-top: -5.58vw;
+    margin-left: 1.87vw;
+    margin-top: -6.18vw;
 }
 #untextomás{
     width: 87.8vw;
-    font-size: 2.1vw;
+    font-size: 2.2vw;
     font-family: miletra;
    
 }
