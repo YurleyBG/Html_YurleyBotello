@@ -1,3 +1,12 @@
+@font-face {
+    font-family: miletra1;
+    src: url("tipodeletra/Amazon Ember Bold.ttf");
+}
+@font-face {
+    font-family: miletra;
+    src: url("tipodeletra/Amazon Ember Light.ttf");
+    
+}
 body{
     background-color: black;
 }
@@ -17,22 +26,22 @@ body{
     margin-left: 2.5%;
     margin-top: 1.4%;
     width: 2.5vw;
+   
 }
 #loginsito{
     border-radius: 50px;
-    font-size: 2vw;
+    font-size: 1.20vw;
     width: 10vw;
     margin-top: 1.4%;
     margin-right: 2%;
     border: none;
     background-color: white;
+    font-family: miletra;
 }
 #cuadrito1{
     margin-top: 5.5%;
     margin-left:1%;
-    width: 35vw;
-
-    
+    width: 35vw;   
 }
 
 #textito1{
@@ -40,7 +49,8 @@ body{
     width:75vw;
     margin-top: -4%;
     margin-left:13% ;
-    font-size: 4vw;
+    font-size: 3vw;
+    font-family: miletra1;
 }
 #text2{
     color:white;
@@ -48,22 +58,25 @@ body{
     margin-top: 1%;
     margin-left:13% ;
     font-size: 1.5vw;
+    font-family: miletra;
 }
 #textt2{
     color:white;
     width:75vw;
     margin-left:13% ;
-    font-size: 1.5vw; 
+    font-size: 1.5vw;
+    font-family: miletra;
 }
 #amazon{
     margin-left:3.5%;
     margin-top:3%;
     width:20vw;
     height: 5vw;
-    font-size: 1.5vw;
+    font-size:2vw;
     border:none;
     background-color: white;
-    border-radius:50px;
+    border-radius:70px;
+    font-family: miletra;
 }
 #texttt2{
     color:white;
@@ -90,8 +103,9 @@ body{
     color:white;
     width:95vw;
     margin-top: 2%;
-    margin-left:13% ;
-    font-size: 3vw;
+    margin-left:9vw ;
+    font-size: 2.8vw;
+    font-family: miletra1;
 }
 #pelis{
     width: 49.63vw;
@@ -104,12 +118,159 @@ body{
 #pelis1{
     width: 9.42vw;
     height: 16.09vw;
+    border:1px #00A8E1 solid; 
 }
 #textito{
-    margin-top: 4.21vw;
-    margin-left: 7.44vw;
+    margin-top: 18.21vw;
+    margin-left: -68vw;
+    width: 89.7vw;
+    height: 5.72vw; 
+    font-family: miletra; 
+}
+#writer{
     font-size: 2.6vw;
-    width: 77.7vw;
+    width: 89.7vw;
     height: 5.72vw;
     color: white;
+    font-family: miletra; 
 }
+#cuadro4{
+    width: 90vw;
+    height:28.3vw;
+    margin-top:2vw;
+    margin-left: 2vw;
+    border-radius: 5vw;
+    background-color: #00A8E1;
+    border:1px #00A8E1 solid;   
+}
+#textit{
+    color:white;
+    width:95vw;
+    margin-top: 2.11vw;
+    margin-left:27.233vw;
+    font-size: 3vw;
+    font-family: miletra1; 
+}
+#circulo{
+    width: 8.783vw;
+    margin-left: 42.275vw;
+    margin-bottom: 9.531vw; 
+}
+#img2{
+    width: 8.783vw;
+    margin-top: 2.24vw;
+}
+#textomani{
+    color:white;
+    width: 67.8vw;
+    margin-left: 1.67vw;
+    margin-top: -5.58vw;
+}
+#untextomás{
+    width: 87.8vw;
+    font-size: 2.1vw;
+    font-family: miletra;
+   
+}
+#cuadro5{
+    color: white;
+    margin-top: 2.76vw;
+    margin-left: 9.34vw;
+    width: 9.34vw;
+}
+#texti{
+    width: 58.22vw;
+    margin-left: 20vw;
+    font-size: 5vw;
+    font-family: miletra;
+}
+#luli{
+    width: 80.417vw;
+    font-size: 2vw;
+    margin-top: 2.292vw;
+    border: 1px black solid;
+}
+#texti1{
+    width: 80.417vw;
+    font-size: 2vw;
+    font-family: miletra;
+    margin-top: 2.292vw;
+   
+}
+#flechas{
+    width: 0.99vw;
+    height: 1.406vw; 
+   
+}
+#img6{
+    width: 0.99vw;
+    height: 1.406vw; 
+    margin-left: 6.795vw;
+    margin-top: 3.5vw;
+}
+#img7{
+    width: 0.99vw;
+    height: 1.406vw; 
+    font-size: 2.2vw;
+    margin-left: 72.942vw;
+    margin-top: -3.5vw;
+    color:dimgray
+}
+#tecno{
+    width: 13vw;
+    height: 11vw;
+    margin-left:10.01vw;
+    display: flex;
+    justify-content: space-between;
+}
+#img4{
+    width: 13vw;
+    height: 11vw;  
+    margin-top:9.99vw ;
+}
+
+#img3{
+    width: 30.41vw;
+    height: 27.81vw;  
+    margin-top: 2.344vw;
+    margin-left: 2.24vw;
+    border: 1px black solid;
+}
+
+#img5{
+    width: 14.115vw;
+    height: 11vw; 
+    margin-top: 10vw;
+}
+#cuadro{
+    width: 28.792vw;
+    height: 1.042vw;
+
+}
+#powerby{
+    width: 4.792vw;
+    height: 1.042vw;
+    margin-top:20.23vw ;
+    margin-left: 33.23vw;
+
+}
+
+
+#logui{
+    width: 22.396vw;
+    height: 18.042vw;
+    margin-top:-2.43vw ;
+    margin-left: 32.23vw;
+
+}
+#lu{
+    width: 43.281vw;
+    height: 1.302vw;
+}
+#groups{
+    width: 43.281vw;
+    height: 1.302vw;
+    margin-left: 18.694vw;
+    margin-top: 30.194vw;
+}
+
