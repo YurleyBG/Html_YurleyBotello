@@ -1,0 +1,33 @@
+body{
+    background-color:white ;
+    
+}
+#contenedor{
+    
+    width: 100vw;
+    height: 100vw;
+    display: grid;
+    grid-template-columns:  20% auto;
+   
+
+}
+#cuadro1{
+    background-color: white;
+    width:100vw;
+    height: 100vw;
+   
+
+}
+#cuadro2{
+    background-color: rgb(214, 211, 211);
+    width:100vw;
+    height:100vw;
+   
+}
+#cuadro3{
+    border: 2px solid black;
+    background-color: white;
+    width: 100vw;
+
+    margin-left: 35vw;
+}
