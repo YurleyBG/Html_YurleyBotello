@@ -34,7 +34,7 @@
 }
 #lluvia{
     width:1vw;
-    height: 3vw;
+    height: 4vw;
     animation-name: gotas;
     animation-duration: 20s;
     animation-fill-mode: forwards;
