@@ -29,7 +29,7 @@
 }
 
 #gotas{
-    margin-left: 65vw;
+    margin-left: 60vw;
     margin-top: -10vw;
 }
 #lluvia{
@@ -87,7 +87,7 @@
 
 }
 @keyframes flor{
-    0%{transform: translateY(2000%);;}
+    0%{transform: translateY(3000%);;}
     50% { transform: translateY(10%);}
     100% {transform: translateY(0%);}
 }
