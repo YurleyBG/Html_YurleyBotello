@@ -28,12 +28,14 @@
     }
 }
 #florecita{
-    margin-top: 18vw;
+    width: 12vw;
+    height: 8vw;
+    margin-top: 20.75vw;
     margin-left: 70vw;
 }
 #flor{
     animation-name: flor;
-    animation-duration: 21s;
+    animation-duration: 35s;
    
 
 }
@@ -50,7 +52,7 @@
     width:1vw;
     height: 3vw;
     animation-name: gotas;
-    animation-duration: 19s;
+    animation-duration: 22s;
     animation-fill-mode: forwards;
 }
 @keyframes gotas {
@@ -74,7 +76,7 @@
     margin-left:45vw ;
     width:50vw;
     animation-name: nube;
-    animation-duration: 20s;
+    animation-duration: 19s;
     animation-fill-mode: forwards;
 
 }
