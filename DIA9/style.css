@@ -28,7 +28,7 @@
     }
 }
 #florecita{
-    margin-top: 21vw;
+    margin-top: 18vw;
     margin-left: 70vw;
 }
 #flor{
@@ -60,11 +60,11 @@
     }
     80% {
         transform: translateY(1300%);
-        opacity:50%;
+        opacity:100%;
     }
     100% {
         transform: translateY(1300%);
-        opacity:-20%;
+        opacity:0%;
     }
 
 
