@@ -30,12 +30,12 @@
 #florecita{
     width: 12vw;
     height: 8vw;
-    margin-top: 20.75vw;
+    margin-top: 21.5vw;
     margin-left: 70vw;
 }
 #flor{
     animation-name: flor;
-    animation-duration: 35s;
+    animation-duration: 30s;
    
 
 }
