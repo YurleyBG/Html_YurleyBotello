@@ -27,23 +27,7 @@
        
     }
 }
-#florecita{
-    width: 12vw;
-    height: 8vw;
-    margin-top: 21.5vw;
-    margin-left: 70vw;
-}
-#flor{
-    animation-name: flor;
-    animation-duration: 30s;
-   
 
-}
-@keyframes flor{
-    0%{transform: translateY(2000%);;}
-    50% { transform: translateY(10%);}
-    100% {transform: translateY(0%);}
-}
 #gotas{
     margin-left: 65vw;
     margin-top: -10vw;
@@ -52,7 +36,7 @@
     width:1vw;
     height: 3vw;
     animation-name: gotas;
-    animation-duration: 22s;
+    animation-duration: 20s;
     animation-fill-mode: forwards;
 }
 @keyframes gotas {
@@ -90,6 +74,23 @@
         transform: translateX(-200%);
     }
 }
+#florecita{
+    width: 12vw;
+    height: 8vw;
+    margin-top: 12.5vw;
+    margin-left: 70vw;
+}
+#flor{
+    animation-name: flor;
+    animation-duration: 25s;
+   
+
+}
+@keyframes flor{
+    0%{transform: translateY(2000%);;}
+    50% { transform: translateY(10%);}
+    100% {transform: translateY(0%);}
+}
 
 #numero3{
     font-size: 3vw;
@@ -116,6 +117,7 @@
         opacity: 0%;
     }
 }
+
 #numero2{
     font-size: 3vw;
     margin-top: -3vw;
