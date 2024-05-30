@@ -6,6 +6,7 @@
     width: 100vw;
     height: 50vw;
     overflow: hidden; 
+    
 }
 
 #sol{
@@ -29,34 +30,35 @@
 }
 
 #gotas{
-    margin-left: 60vw;
-    margin-top: -10vw;
+    animation-name: gotas;
+    animation-duration: 17.5s;
+    animation-fill-mode: forwards;
+    width:25vw;
+    height: 20vw;
 }
 #lluvia{
-    width:1vw;
-    height: 4vw;
-    animation-name: gotas;
-    animation-duration: 20s;
-    animation-fill-mode: forwards;
+    margin-left: 60vw;
+    margin-top: -18vw;
+    
 }
 @keyframes gotas {
-    0%, 20%{
-        transform: translateY(-100px);
+    0%, 40%{
+        transform: translateY(0px);
         opacity: 0%;
     }
-    80% {
-        transform: translateY(1300%);
+    50% {
+        transform: translateY(250%);
         opacity:100%;
     }
     100% {
-        transform: translateY(1300%);
-        opacity:0%;
+        transform: translateY(250%);
+        opacity:100%;
     }
 
 
 }
 #nube{
-    margin-top: -30vw;
+    margin-top: -50vw;
     margin-left:45vw ;
     width:50vw;
     animation-name: nube;
@@ -75,26 +77,27 @@
     }
 }
 #florecita{
-    width: 12vw;
-    height: 8vw;
-    margin-top: 12.5vw;
+
+    margin-top: 14vw;
     margin-left: 70vw;
 }
 #flor{
+    width: 8vw;
+    height: 10vw;
     animation-name: flor;
-    animation-duration: 25s;
-   
+    animation-duration: 16s;
+    animation-fill-mode: forwards;
 
 }
 @keyframes flor{
-    0%{transform: translateY(3000%);;}
-    50% { transform: translateY(10%);}
-    100% {transform: translateY(0%);}
+    0%{transform: translateY(800%);}
+    50% { transform: translateY(100%);}
+    100% { transform: translateY(0%);}
 }
 
 #numero3{
     font-size: 3vw;
-    margin-top: -17vw;
+    margin-top: -10vw;
     margin-left: 50vw ;
     animation-name: tres;
     animation-duration: 1s;
