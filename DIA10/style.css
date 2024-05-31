@@ -4,19 +4,33 @@
     box-sizing: border-box;
 
 }
+
 #container{
+    display: grid;
     width:100vw;
-    height:100vw;
-    background-color: blueviolet;
-    color: black;
+    height:57vw;
+
+   
+   
+}
+
+.cajaG {
+    width: 80vw;
+    height: 52vw;
+    background-color:rgb(206, 204, 204);
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
 .menu{
-    width: 20vw;
-    height: 100vw;
-    overflow: hidden;
-    position: fixed;
-    padding: 32px 16px;
+    width: 5vw;
+    height: 57vw;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
     background-color:white ;
+    align-items: center;
+    
+  
 
 
 }
@@ -48,11 +62,12 @@
     margin-left: 2vw;
 }
 #cuadro1{
-    position: absolute;
-    width: 100vw;
-    height: 4vw;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 80vw;
+    height: 5vw;
     background-color:white;
-    margin-left: 0vw;
+   
 }
 #main {
     margin-top: 2vw;
@@ -65,21 +80,7 @@
     margin-top: 1vw;
     padding:0 vw;
 }
-.all ul li{
-    cursor:pointer;
-    background-color: #0280fe ;
-    margin: 0.5vw;
-    padding:0.5vw 0;
-    border-radius: 0.5vw;
-    display: flex;
-    align-items: center;
-    transition: 0.5s ease;
-  
-}
-.all ul li:hover{
-    background: #0280fe ;
 
-}
 
 .all ul li .img{
     font-size: 2vw;
@@ -92,25 +93,14 @@
     padding-left: 1vw;
     opacity: 1;
     pointer-events: none;
-    transition: 0.3s ease;
+    
 }
-input{
- width: 50vw;
+
+#check:checked ~ .menu{
+    width: 20vw;
+
 }
-#click{
-   
-}
-#cuadro1 label{
-    position: absolute;
-    margin-left: 18vw;
-    margin-top: 1vw;
-    z-index:1;
-    cursor: pointer;
-}
-#click:checked ~ .cuadro1{
-    width:20vw ;
-}
-#click:checked ~ .all ul li a{
-    opacity:1;
-    pointer-events: auto;
+
+#check {
+    display: none;
 }
