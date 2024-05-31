@@ -10,7 +10,7 @@
     background-color: blueviolet;
     color: black;
 }
-#container .menu{
+.menu{
     width: 20vw;
     height: 100vw;
     overflow: hidden;
@@ -47,12 +47,12 @@
     margin-top: 1vw;
     margin-left: 2vw;
 }
-#container #cuadro1{
+#cuadro1{
     position: absolute;
-    width: 80vw;
+    width: 100vw;
     height: 4vw;
     background-color:white;
-    margin-left: 20vw;
+    margin-left: 0vw;
 }
 #main {
     margin-top: 2vw;
@@ -63,19 +63,21 @@
 .all ul{
     list-style: none;
     margin-top: 1vw;
-    padding:0 1vw;
+    padding:0 vw;
 }
 .all ul li{
-    cursor:text;
-    color: #0280fe ;
+    cursor:pointer;
+    background-color: #0280fe ;
     margin: 0.5vw;
     padding:0.5vw 0;
-   
-   
-    
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+  
 }
 .all ul li:hover{
-    color: #0280fe ;
+    background: #0280fe ;
 
 }
 
@@ -86,13 +88,29 @@
 .all ul li a{
     text-decoration: none;
     color: black;
-    font-size: 1.5vw;
+    font-size: 1vw;
     padding-left: 1vw;
+    opacity: 1;
+    pointer-events: none;
+    transition: 0.3s ease;
 }
-#container label #rayitas {
+input{
+ width: 50vw;
+}
+#click{
+   
+}
+#cuadro1 label{
     position: absolute;
-    margin-left: 2%;
+    margin-left: 18vw;
     margin-top: 1vw;
-    width: 3vw;
-    height: 2vw;
+    z-index:1;
+    cursor: pointer;
+}
+#click:checked ~ .cuadro1{
+    width:20vw ;
+}
+#click:checked ~ .all ul li a{
+    opacity:1;
+    pointer-events: auto;
 }
