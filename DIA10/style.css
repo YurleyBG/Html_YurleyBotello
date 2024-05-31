@@ -1,33 +1,98 @@
-body{
-    background-color:white ;
-    
-}
-#contenedor{
-    
-    width: 100vw;
-    height: 100vw;
-    display: grid;
-    grid-template-columns:  20% auto;
-   
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
-#cuadro1{
-    background-color: white;
-    width:100vw;
-    height: 100vw;
-   
-
-}
-#cuadro2{
-    background-color: rgb(214, 211, 211);
+#container{
     width:100vw;
     height:100vw;
-   
+    background-color: blueviolet;
+    color: black;
 }
-#cuadro3{
-    border: 2px solid black;
-    background-color: white;
-    width: 100vw;
+#container .menu{
+    width: 20vw;
+    height: 100vw;
+    overflow: hidden;
+    position: fixed;
+    padding: 32px 16px;
+    background-color:white ;
 
-    margin-left: 35vw;
+
+}
+#container #logo  h3{
+    font-size: 2vw;
+    text-align:center;
+    color:#0280fe;
+
+}
+#boton{
+    margin-left: 1vw;
+    margin-top: 2vw;
+    width:15vw;
+    height: 3vw;
+    background-color: #0280fe;
+    border-radius: 0.5vw;
+}
+#boton #textbo{
+    margin-top: -1.6vw;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+}
+#boton #img1{
+    width: 1vw;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+#container #cuadro1{
+    position: absolute;
+    width: 80vw;
+    height: 4vw;
+    background-color:white;
+    margin-left: 20vw;
+}
+#main {
+    margin-top: 2vw;
+    font-size: 1vw;
+    padding-left: 1vw;
+
+}
+.all ul{
+    list-style: none;
+    margin-top: 1vw;
+    padding:0 1vw;
+}
+.all ul li{
+    cursor:text;
+    color: #0280fe ;
+    margin: 0.5vw;
+    padding:0.5vw 0;
+   
+   
+    
+}
+.all ul li:hover{
+    color: #0280fe ;
+
+}
+
+.all ul li .img{
+    font-size: 2vw;
+    padding: 0 1vw;;
+}
+.all ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+}
+#container label #rayitas {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1vw;
+    width: 3vw;
+    height: 2vw;
 }
