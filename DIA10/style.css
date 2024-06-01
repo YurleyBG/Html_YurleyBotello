@@ -13,17 +13,19 @@
    
    
 }
-#perfil{
-    margin-left:68vw ;
-    margin-top: 1vw;
-    width: 3vw;
-    height: 3vw;
-}
+
 #menufo{
     margin-left: 2vw;
     margin-top: 1vw;
     width: 3vw;
     height: 3vw;
+}
+#perfil{
+    margin-left:68vw ;
+    margin-top: 1vw;
+    width: 3vw;
+    height: 3vw;
+    
 }
 
 .cajaG {
@@ -36,7 +38,7 @@
 }
 #cajita1{
     margin-left:2vw ;
-    margin-top: 10vw;
+    margin-top: 5vw;
     width: 18vw;
     height: 9vw;
     border-radius: 0.5vw;
@@ -103,7 +105,7 @@
     align-items: center;
 }
 #boton{
-    margin-left: 1vw;
+    margin-left: 1.5vw;
     margin-top: 4vw;
     width:15vw;
     height: 3vw;
@@ -126,7 +128,7 @@
 #cuadro1{
     grid-column-start: 2;
     grid-row-start: 1;
-    width: 40vw;
+    width: 100vw;
     height: 5vw;
     background-color:white;
    
@@ -144,6 +146,108 @@
     padding-left: 1vw;
     opacity: 0;
 }
+.cajaG h2{
+    margin-top: 2vw;
+    margin-left:2vw;
+    
+    
+}
+.cajaG h6{
+    color: rgb(167, 162, 162);
+}
+.cajaG h6 span{
+    margin-top: 3vw;
+    margin-left:2vw;
+    color:#0280fe;
+}
+#textico1{
+    font-size: 2vw;
+    margin-left: 1vw;
+    padding-top: -1.5vw;
+
+}
+#textico2{
+    font-size: 1vw;
+    margin-left: 1vw;
+    padding-top: 0.5vw;
+}
+#textico3{
+    font-size: 1vw;
+    margin-left: 1vw;
+    padding-top: 0.5vw;
+}
+#textico4{
+    font-size: 2vw;
+    margin-left: 1vw;
+    padding-top: -1.5vw;
+
+}
+#textico5{
+    font-size: 1vw;
+    margin-left: 1vw;
+    padding-top: 0.5vw;
+}
+#textico6{
+    font-size: 1vw;
+    margin-left: 1vw;
+    padding-top: 0.5vw;
+}
+#textico7{
+    font-size: 2vw;
+    margin-left: 1vw;
+    padding-top: -1.5vw;
+
+}
+#textico8{
+    font-size: 1vw;
+    margin-left: 1vw;
+    padding-top: 0.5vw;
+}
+#textico9{
+    font-size: 1vw;
+    margin-left: 1vw;
+    padding-top: 0.5vw;
+}
+#textico10{
+    font-size: 2vw;
+    margin-left: 1vw;
+    padding-top: -1.5vw;
+
+}
+#textico11{
+    font-size: 1vw;
+    margin-left: 1vw;
+    padding-top: 0.5vw;
+}
+#textico12{
+    font-size: 1vw;
+    margin-left: 1vw;
+    padding-top: 0.5vw;
+}
+#textico13{
+    font-size: 2vw;
+    margin-left: 1vw;
+    padding-top: 1vw;
+}
+#textico14{
+    font-size: 2vw;
+    margin-left: 1vw;
+    padding-top: 2vw;
+}
+progress{
+    margin-left: 1vw;
+    
+}
+.imagenes{
+    width: 1vw;
+    height: 1vw;
+    margin-left: 16vw;
+    margin-top:0.5vw;
+  
+
+
+}
+
 .all ul{
     list-style: none;
     margin-top: 1vw;
@@ -167,6 +271,7 @@
 
 #check:checked ~ .menu{
     width: 5vw;
+    height:57vw
 
 }
 #check:checked ~ .menu #logo h3{
@@ -196,9 +301,11 @@
     width: 21.5vw;
     margin-left: 1.5vw;
     height:10vw;
-    margin-top: 10vw;
+    margin-top: 5vw;
   
 }
+
+
 #check:checked~ .cajaG #cajita2{
     width: 21.5vw;
     margin-left: 24.5vw;
@@ -224,14 +331,17 @@
     margin-left: 1.5vw;
     height:10vw;
 }
-#check:checked~ .menu .all ul li a{
+#check:checked ~ .menu .all ul li a{
     opacity: 0;
     pointer-events: auto;
 }
-#check:checked ~ #cuadro1 #perfil{
-    margin-left:82vw ;
-  
+
+#check:checked~ .cajaG .imagenes{
+    width: 1.2vw;
+    height: 1.2vw;
+    margin-left: 18.5vw;
 }
+
 #check {
     display: none;
 }
