@@ -13,16 +13,69 @@
    
    
 }
+#perfil{
+    margin-left:68vw ;
+    margin-top: 1vw;
+    width: 3vw;
+    height: 3vw;
+}
+#menufo{
+    margin-left: 2vw;
+    margin-top: 1vw;
+    width: 3vw;
+    height: 3vw;
+}
 
 .cajaG {
     width: 80vw;
     height: 52vw;
-    background-color:rgb(206, 204, 204);
+    background-color:rgb(219, 213, 213);
     grid-column-start: 2;
     grid-row-start: 2;
+    overflow: hidden;
+}
+#cajita1{
+    margin-left:2vw ;
+    margin-top: 10vw;
+    width: 18vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    background-color: white;
+}
+#cajita2{
+    margin-left:21vw ;
+    margin-top: -9vw;
+    width: 18vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    background-color: white;
+}
+#cajita3{
+    margin-left:40vw ;
+    margin-top: -9vw;
+    width: 18vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    background-color: white;
+}
+#cajita4{
+    margin-left:59vw ;
+    margin-top: -9vw;
+    width: 18vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    background-color: white;
+}
+#cajita5{
+    margin-left:2vw ;
+    margin-top: 2vw;
+    width: 75vw;
+    height: 9vw;
+    border-radius: 0.5vw;
+    background-color: white;
 }
 .menu{
-    width: 5vw;
+    width: 20vw;
     height: 57vw;
     grid-column-start: 1;
     grid-row-start: 1;
@@ -34,15 +87,24 @@
 
 
 }
-#container #logo  h3{
+#container #logo h3{
+    margin-top: -2.5vw;
+    margin-left: -1.5vw;
     font-size: 2vw;
     text-align:center;
     color:#0280fe;
 
 }
+
+#container #logo #carita{
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+    width: 2vw;
+    align-items: center;
+}
 #boton{
     margin-left: 1vw;
-    margin-top: 2vw;
+    margin-top: 4vw;
     width:15vw;
     height: 3vw;
     background-color: #0280fe;
@@ -64,7 +126,7 @@
 #cuadro1{
     grid-column-start: 2;
     grid-row-start: 1;
-    width: 80vw;
+    width: 40vw;
     height: 5vw;
     background-color:white;
    
@@ -73,12 +135,19 @@
     margin-top: 2vw;
     font-size: 1vw;
     padding-left: 1vw;
+    opacity: 0;
 
+}
+#title1{
+    margin-top: 2vw;
+    font-size: 1vw;
+    padding-left: 1vw;
+    opacity: 0;
 }
 .all ul{
     list-style: none;
     margin-top: 1vw;
-    padding:0 vw;
+    padding:0 1vw;
 }
 
 
@@ -97,10 +166,72 @@
 }
 
 #check:checked ~ .menu{
-    width: 20vw;
+    width: 5vw;
 
 }
+#check:checked ~ .menu #logo h3{
+    opacity: 0;
+}
+#check:checked ~ .menu #boton {
+    margin-top: 4vw;
+    margin-left: 1vw;
+    width: 3vw;
 
+}
+#check:checked ~ .menu #boton #img1{
+    margin-left: 1vw;
+}
+#check:checked ~ .menu #boton #textbo{
+    opacity: 0;
+
+}
+#check:checked~ .menu .all ul li .img{
+    margin-left: -1vw;
+   
+}
+#check:checked~ .cajaG{
+    width: 94vw;
+}
+#check:checked~ .cajaG #cajita1{
+    width: 21.5vw;
+    margin-left: 1.5vw;
+    height:10vw;
+    margin-top: 10vw;
+  
+}
+#check:checked~ .cajaG #cajita2{
+    width: 21.5vw;
+    margin-left: 24.5vw;
+    height:10vw;
+    margin-top: -10vw;
+    
+}
+#check:checked~.cajaG #cajita3{
+    width: 21.5vw;
+    margin-left: 47.5vw;
+    height:10vw;
+    margin-top: -10vw;
+}
+#check:checked~ .cajaG #cajita4{
+    margin-left:70.5vw;
+    width: 21vw;
+    height:10vw;
+    margin-top: -10vw;
+}
+
+#check:checked~ .cajaG #cajita5{
+    width: 90vw;
+    margin-left: 1.5vw;
+    height:10vw;
+}
+#check:checked~ .menu .all ul li a{
+    opacity: 0;
+    pointer-events: auto;
+}
+#check:checked ~ #cuadro1 #perfil{
+    margin-left:82vw ;
+  
+}
 #check {
     display: none;
 }
