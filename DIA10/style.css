@@ -21,6 +21,7 @@
     height: 3vw;
 }
 #perfil{
+    position: relative;
     margin-left:68vw ;
     margin-top: 1vw;
     width: 3vw;
@@ -105,6 +106,7 @@
     align-items: center;
 }
 #boton{
+    position: relative;
     margin-left: 1.5vw;
     margin-top: 4vw;
     width:15vw;
@@ -113,8 +115,9 @@
     border-radius: 0.5vw;
 }
 #boton #textbo{
+    position: absolute;
     margin-top: -1.6vw;
-    margin-left: 1vw;
+    margin-left: 5vw;
     font-size: 1.5vw;
     color: white;
     text-align: center;
@@ -161,68 +164,80 @@
     color:#0280fe;
 }
 #textico1{
+    position:absolute;
     font-size: 2vw;
     margin-left: 1vw;
-    padding-top: -1.5vw;
+    padding-top: 1vw;
 
 }
 #textico2{
+    position:relative;
     font-size: 1vw;
     margin-left: 1vw;
-    padding-top: 0.5vw;
+    padding-top: 3vw;
 }
 #textico3{
+    position: absolute;
     font-size: 1vw;
     margin-left: 1vw;
-    padding-top: 0.5vw;
+    margin-top:3vw;
 }
 #textico4{
+    position:absolute;
     font-size: 2vw;
     margin-left: 1vw;
-    padding-top: -1.5vw;
+    padding-top: 1vw;
 
 }
 #textico5{
+    position:relative;
     font-size: 1vw;
     margin-left: 1vw;
-    padding-top: 0.5vw;
+    padding-top: 3vw;
 }
 #textico6{
+    position: absolute;
     font-size: 1vw;
     margin-left: 1vw;
-    padding-top: 0.5vw;
+    margin-top:3vw;
 }
 #textico7{
+    position:absolute;
     font-size: 2vw;
     margin-left: 1vw;
-    padding-top: -1.5vw;
+    padding-top: 1vw;
 
 }
 #textico8{
+    position:relative;
     font-size: 1vw;
     margin-left: 1vw;
-    padding-top: 0.5vw;
+    padding-top: 3vw;
 }
 #textico9{
+    position: absolute;
     font-size: 1vw;
     margin-left: 1vw;
-    padding-top: 0.5vw;
+    margin-top:3vw;
 }
 #textico10{
+    position:absolute;
     font-size: 2vw;
     margin-left: 1vw;
-    padding-top: -1.5vw;
+    padding-top: 1vw;
 
 }
 #textico11{
+    position:relative;
     font-size: 1vw;
     margin-left: 1vw;
-    padding-top: 0.5vw;
+    padding-top: 3vw;
 }
 #textico12{
+    position: absolute;
     font-size: 1vw;
     margin-left: 1vw;
-    padding-top: 0.5vw;
+    margin-top:3vw;
 }
 #textico13{
     font-size: 2vw;
@@ -235,15 +250,18 @@
     padding-top: 2vw;
 }
 progress{
+    position:absolute;
+    margin-top: 1vw;
     margin-left: 1vw;
-   
-    
+    width: 14vw;
+    height: 1.5vw;
 }
 .imagenes{
+    position:absolute;
     width: 1vw;
     height: 1vw;
     margin-left: 16vw;
-    margin-top:0.5vw;
+    margin-top:1.5vw;
   
 
 
@@ -268,6 +286,10 @@ progress{
     opacity: 1;
     pointer-events: none;
     
+}
+#cadena1{
+    opacity:0;
+    align-items: center;
 }
 
 #check:checked ~ .menu{
@@ -342,7 +364,15 @@ progress{
     height: 1.2vw;
     margin-left: 18.5vw;
 }
+#abrir{
+    display: none;
+}
 
 #check {
     display: none;
 }
+#abrir:checked ~ #cadena1{
+    opacity: 1;
+    
+}
+

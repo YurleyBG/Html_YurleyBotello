@@ -1,0 +1,510 @@
+body{
+    background-color:white;
+    margin: auto;
+}
+@font-face {
+    font-family: letra1;
+    src: url("tipo de letra/MyriadPro-Light.otf");
+}
+@font-face {
+    font-family:letra2;
+    src: url("tipo de letra/MYRIADPRO-BOLD.OTF");
+}
+@font-face {
+    font-family:letra3;
+    src: url("tipo de letra/MYRIADPRO-SEMIBOLDIT.OTF");
+}
+@media (min-width:430px){
+    #blanco{
+        background-color: blue;
+       
+    }
+}
+#principal{
+    margin: auto;
+    width: 100vw;
+    height: 300vw;
+
+}
+#barraazul1{
+    margin-top: -10vw;
+    background-color:#3464cb ;
+    width: 100vw;
+    height: 10vw;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: letra1;
+}
+#boton1{
+    margin-top: 4vw;
+    margin-left: 1vw;
+    background-color: white;
+    height: 2.5vw;
+    width: 12vw;
+    border-radius: 2vw;
+    font-size: 1.2vw;
+    color: black;
+    padding-top: 1vw;
+    font-family: letra1;
+}
+#imglogo{
+    margin-top: 3vw;
+    height: 5vw;
+    width: 25vw;
+}
+.textosinicial{
+    margin-top: 5vw;
+    color: white;
+    font-size: 1.5vw;
+    font-family: letra1;
+
+}
+a{
+    text-decoration: none;
+}
+#caja1{
+    border: 1px solid black;
+    margin-top: 10vw;
+    background-image: url("pinctures/Fondo@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 50vw;
+}
+#blanco{
+    background-color: white;
+    width: 30vw;
+    height: 40vw;
+    margin-top: 5vw;
+    margin-left: 6vw;
+    border-radius: 1vw;
+    border: 1px solid white;
+    overflow: hidden;
+   
+}
+#text1{
+    padding-top: 0.5vw;
+    font-size: 2vw;
+    text-align: center;
+}
+#text2{
+    font-size: 1vw;
+    text-align: center;
+}
+#text3{
+    font-size: 2.5vw;
+    margin-left: 58vw;
+    margin-top: -25vw;
+}
+#text4{
+    font-family: letra1;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-left: 35vw;
+    margin-top: 1vw;
+}
+#input1{
+
+    width: 30vw;
+    height: 30vw;
+}
+.name{
+    font-size: 1vw;
+    padding: 1vw;
+
+}
+.input{
+    margin-left: 1vw;
+    padding-left: 1vw;
+    width: 28vw;
+    height: 3vw;
+}
+.input2{
+    bottom: 1vw;
+    margin-left: 1vw;
+    width: 27.3vw;
+    height: 2.5w;  
+}
+#boton2{
+    font-family: letra1;
+    margin-top: 1vw;
+    margin-left: 10vw ;
+    justify-content: center;
+    text-align: center;
+    font-size: 1vw;
+    width: 8vw;
+    height: 2vw;
+    border-radius: 1vw;
+    background-color: #157ffb;
+    border: none;
+    color:white;
+}
+#boton3{
+    font-family: letra1;
+    margin-top: 2vw;
+    margin-left: 63.5vw ;
+    justify-content: center;
+    text-align: center;
+    font-size: 1vw;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 1vw;
+    background-color: #157ffb;
+    border: none;
+    color:white; 
+}
+
+#caja2{
+    border: 1px solid white;
+    width: 100vw;
+    height: 60vw;
+    background-color: white;
+}
+
+#text5{
+    font-family: letra1;
+    margin-top: 10vw;
+    text-align: center;
+    font-size: 2vw;
+}
+#text6{
+    font-family: letra1;
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 1.5vw;
+    margin-left: -45vw;
+ 
+}
+#imgglobo{
+    margin-top: -28vw;
+    margin-left: 50vw;
+    width: 45vw;
+    height: 27vw;
+}
+
+#abrir11{
+   
+    width: 2vw;
+    font-family: letra1;
+    font-size: 1vw;
+    margin-top: -12vw;
+    margin-left: 20.5vw;
+    text-decoration: none;
+    color: black;
+}
+#imgfle{
+    margin-top: 0.5vw;
+    margin-left: 26vw;
+    width: 1vw;
+    height: 0.5vw;
+    text-decoration: none;
+    color: black;
+}
+
+#caja3{
+    border: 1px solid white;
+    width: 100vw;
+    height: 60vw;
+    background-color: white;
+}
+#entregas{
+    font-family: letra1;
+    margin-left: 41vw;
+    font-size: 2.5vw;
+}
+#contenedor2{
+    font-family: letra1;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+    font-size: 2vw;
+    margin-left: -12
+  
+}
+#contenedor3{
+    font-family: letra1;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+    font-size: 2vw;
+}
+#fechas1{
+    font-family: letra1;
+    margin-left: 5vw;
+}
+#bancos{
+    font-family: letra1;
+    margin-top: 5vw;
+    margin-left: 40.5vw;
+    font-size: 2.5vw;
+}
+#contenedor4{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+  
+}
+#bancamia{
+    margin-left: 4vw;
+    margin-top: 1vw;
+    width:20vw;
+    height:10vw;
+}
+#bancolombia{
+    margin-left: -0.5vw;
+    width:20vw;
+    height:10vw;
+}
+#cajasocial{
+    margin-top: 3vw;
+    width:25vw;
+    height:5vw;
+}
+#contenedor5{
+    display: flex;
+    text-align: center;
+    
+}
+#movi{
+    margin-top: 2vw;
+    margin-left: 35vw;
+    width:12vw;
+    height:5vw;
+}
+#davi{
+    margin-left: 6vw;
+    width:18vw;
+    height:9vw;
+}
+#check1{
+    font-family: letra1;
+    margin-left: 46vw;
+    font-size: 1vw;
+    text-decoration: none;
+    color: black;
+}
+#imgfle1{
+    text-decoration: none;
+    color: black;
+    margin-top: -6vw;
+    margin-left: 49.5vw;;
+    width: 1vw;
+    height: 0.5vw;
+}
+
+#caja4{
+    border: 1px solid white;
+    width: 100vw;
+    height: 40vw;
+    background-color: white;
+}
+#text01{
+    font-family: letra1;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#circulito1{
+    font-family: letra1;
+    margin-top: 1vw;
+    margin-left: 48vw ;
+    background-color: #157ffb;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 5vw;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 1vw;
+}
+#text02{
+    font-family: letra3;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+}
+#text03{
+    font-family: letra1;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#circulito2{
+    font-family: letra1;
+    margin-top: 1vw;
+    margin-left: 48vw ;
+    background-color: #157ffb;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 5vw;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 1vw;
+}
+#text04{
+    font-family: letra3;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+}
+#text05{
+    font-family: letra1;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#ver{
+    font-family: letra1;
+    margin-left: 46.5vw;
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    text-decoration: none;
+    color: black;
+}
+#imgfle2{
+    margin-left: 48vw;;
+    width: 1vw;
+    height: 0.5vw;
+    text-decoration: none;
+    color: black;
+}
+#caja5{
+    border: 1px solid white;
+    width: 100vw;
+    height: 80vw;
+    background-color: white;
+}
+#circulito3{
+    font-family: letra1;
+    margin-top: 1vw;
+    margin-left: 48vw ;
+    background-color: #157ffb;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 5vw;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 1vw;
+}
+#text06{
+    font-family: letra3;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+}
+#text07{
+    font-family: letra1;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#circulito4{
+    font-family: letra1;
+    margin-top: 1vw;
+    margin-left: 48vw ;
+    background-color:#4184ff;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 5vw;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 1vw;
+}
+#text08{
+    font-family: letra3;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+}
+#text09{
+    font-family: letra1;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#circulito5{
+    font-family: letra1;
+    margin-top: 1vw;
+    margin-left: 48vw ;
+    background-color: #157ffb;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 5vw;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 1vw;
+}
+#text010{
+    font-family: letra3;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+}
+#text011{
+    font-family: letra1;
+    margin-top: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#text012{
+    
+    border-radius: 2vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    background-color: #157FFB;
+    width: 90vw;
+    height: 20vw;
+}
+#text013{
+    font-family: letra2;
+    padding-top: 1vw;
+    font-size: 2.5vw;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+#text014{
+    font-family: letra1;
+    padding-top: 5vw;
+    font-size: 2vw;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+#barra{
+    font-family: letra1;
+    margin-top: 4vw;
+    margin-left: 38vw;
+    padding-top:0.5vw ;
+    justify-content: center;
+    text-align: center;
+    width: 12vw;
+    height: 2.5vw;
+    background-color: white;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+}
+#barraazul2{
+    background-image: url("pinctures/Bottom@2x.png");
+    width: 100vw;
+    height: 10vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
