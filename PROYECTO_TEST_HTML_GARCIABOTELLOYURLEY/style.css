@@ -14,17 +14,10 @@ body{
     font-family:letra3;
     src: url("tipo de letra/MYRIADPRO-SEMIBOLDIT.OTF");
 }
-@media (min-width:430px){
-    #blanco{
-        background-color: blue;
-       
-    }
-}
 #principal{
     margin: auto;
     width: 100vw;
     height: 300vw;
-
 }
 #barraazul1{
     margin-top: -10vw;
@@ -59,7 +52,6 @@ body{
     color: white;
     font-size: 1.5vw;
     font-family: letra1;
-
 }
 a{
     text-decoration: none;
@@ -79,12 +71,9 @@ a{
     margin-top: 5vw;
     margin-left: 6vw;
     border-radius: 1vw;
-    border: 1px solid white;
-    overflow: hidden;
-   
+    border: 2px solid white;
 }
 #text1{
-    padding-top: 0.5vw;
     font-size: 2vw;
     text-align: center;
 }
@@ -102,33 +91,72 @@ a{
     text-align: center;
     font-size: 1.3vw;
     margin-left: 35vw;
-    margin-top: 1vw;
 }
-#input1{
-
-    width: 30vw;
-    height: 30vw;
-}
-.name{
+#nombres{
     font-size: 1vw;
-    padding: 1vw;
-
 }
-.input{
+#div1{
     margin-left: 1vw;
-    padding-left: 1vw;
     width: 28vw;
-    height: 3vw;
+    height: 2.5vw;
 }
-.input2{
-    bottom: 1vw;
+#div2{
     margin-left: 1vw;
-    width: 27.3vw;
-    height: 2.5w;  
+    width: 28vw;
+    height: 2.5vw;
+}
+#div3{
+    margin-left: 1vw;
+    width: 28vw;
+    height: 2.5vw;
+}
+#div4{
+    margin-left: 1vw;
+    width: 28vw;
+    height: 2.5vw;
+}
+#div5{
+    margin-left: 1vw;
+    width: 28vw;
+    height: 2.5vw;
+}
+#div6{
+    margin-left: 1vw;
+    width: 28vw;
+    height: 2.5vw;
+}
+#div7{
+    margin-left: 1vw;
+    width: 28vw;
+    height: 2.5vw;
+}
+#docu{
+    width: 28vw;
+    height: 2vw;
+}
+#numedocu{ 
+    width: 27.5vw;
+    height: 2vw;
+}
+#name1{
+    width: 27.5vw;
+    height: 2vw;
+}
+#apellido1{
+    width: 27.5vw;
+    height: 2vw;
+}
+#fid{
+    width: 27.5vw;
+    height: 2vw;
+}
+#numetele{
+    width: 27.5vw;
+    height: 2vw;
 }
 #boton2{
     font-family: letra1;
-    margin-top: 1vw;
+    margin-top: 3vw;
     margin-left: 10vw ;
     justify-content: center;
     text-align: center;
@@ -154,14 +182,12 @@ a{
     border: none;
     color:white; 
 }
-
 #caja2{
     border: 1px solid white;
     width: 100vw;
     height: 60vw;
     background-color: white;
 }
-
 #text5{
     font-family: letra1;
     margin-top: 10vw;
@@ -182,9 +208,7 @@ a{
     width: 45vw;
     height: 27vw;
 }
-
 #abrir11{
-   
     width: 2vw;
     font-family: letra1;
     font-size: 1vw;
@@ -201,7 +225,6 @@ a{
     text-decoration: none;
     color: black;
 }
-
 #caja3{
     border: 1px solid white;
     width: 100vw;
@@ -221,7 +244,6 @@ a{
     margin-top: 2vw;
     font-size: 2vw;
     margin-left: -12
-  
 }
 #contenedor3{
     font-family: letra1;
@@ -245,7 +267,6 @@ a{
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-  
 }
 #bancamia{
     margin-left: 4vw;
@@ -371,9 +392,8 @@ a{
 }
 #imgfle2{
     margin-left: 48vw;;
-    width: 1vw;
-    height: 0.5vw;
-    text-decoration: none;
+    width: 2vw;
+    height: 2vw;
     color: black;
 }
 #caja5{
@@ -508,3 +528,96 @@ a{
     background-size: 100vw;
     background-repeat: no-repeat;
 }
+
+@media only screen and (max-width:430px)
+{
+    
+    #caja1 #blanco #nombres{
+        font-size: 1vw;
+    }
+    #caja1 #blanco #div1{
+        margin-left: 1vw;
+        margin-top: 1vw;
+        width: 28vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #caja1 #blanco #div2{
+        margin-left: 1vw;
+        margin-top: -4vw;
+        width: 28vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #caja1 #blanco #div3{
+        margin-left: 1vw;
+        margin-top: -4vw;
+        width: 28vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #caja1 #blanco #div4{
+        margin-left: 1vw;
+        margin-top: -4vw;
+        width: 28vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #caja1 #blanco #div5{
+        margin-left: 1vw;
+        margin-top: -4vw;
+        width: 28vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }#caja1 #blanco #div6{
+        margin-left: 1vw;
+        margin-top: -4vw;
+        width: 28vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }#caja1 #blanco #div7{
+        margin-left: 1vw;
+        margin-top: -5vw;
+        width: 28vw;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #caja1 #blanco #docu{
+        font-size: 1.5vw;
+        width: 28vw;
+        height: 3vw;
+    }
+    #caja1 #blanco #numedocu{
+        width: 26vw;
+        height: 1.7vw;
+    }
+    #caja1 #blanco #name1{ 
+        width: 26vw;
+        height: 1.7vw;
+    }
+    #caja1 #blanco #apellido1{
+        width: 26vw;
+        height: 1.7vw;
+    }
+    #caja1 #blanco #fid{
+        font-size: 1.5vw;
+        width: 26.5vw;
+        height: 2vw;
+    }
+    #caja1 #blanco #numetele{
+        width: 26vw;
+        height: 1.5vw;
+    }
+    #boton2{
+        margin-top: 6vw;
+    }
+ }
+
+ 

@@ -21,26 +21,47 @@
             <div id="blanco">
                 <div id="text1"><strong> Consulta tu estado del <br> Ingreso <br> Solidario</strong></div>
                 <div id="text2">Por favor ingresar tus datos personales para revisar el estado de entrega <br> de tu ingreso</div>
-                <div id="input1">
-                    <label class="name">Documento de Identidad</label>
-                    <br>
-                    <select class="input">
-                        <option >Cedula de Ciudadania</option>
-                    </select>
-                    <label class="name">Número de Documento</label><br>
-                    <input class="input2" type="number" ></input>
-                    <label class="name" >Primer Nombre</label><br>
-                    <input class="input2" type="text"></input>
-                    <label class="name">Primer Apellido</label><br>
-                    <input class="input2" type="text"></input>
-                    <label class="name">Fecha de expedición del documento</label><br>
-                    <input class="input2" type="date"></input>
-                    <label class="name">Número de telefono</label><br>
-                    <input class="input2" type="number"></input><br>
-                    <button id="boton2">Consultar</button>
-
-                </div>
                 
+                <form action="#">
+                    <div id="div1">
+                        <label for="docu" id="nombres"> Tipo de Documento</label>
+                        <select name="ID" id="docu">
+                            <option value="CC" >Cédula de Ciudadania</option>
+                            <option value="TI">Tarjeta de Identidad</option>
+                            <option value="CE" >Cédula Extranjera</option>
+                            <option value="p" >Pasaporte</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div id="div2">
+                        <label for="numedocu" id="nombres">Número de Documento</label>
+                        <input type="number" id="numedocu"></input>
+                    </div>
+                    <br>
+                    <div id="div3">
+                        <label for="name1" id="nombres">Primer Nombre</label>
+                        <input id="name1" type="text"></input>
+                    </div>
+                    <br>
+                    <div id="div4">
+                        <label for="apellido1" id="nombres">Primer Apellido</label>
+                        <input id="apellido1" type="text"></input>
+                    </div>
+                    <br>
+                    <div id="div5">
+                        <label for="fid" id="nombres">Fecha de expedición del documento</label>
+                        <input id="fid" type="date"></input>
+                    </div>
+                    <br>
+                    <div id="div6">
+                        <label for="numetele" id="nombres">Número de telefono</label>
+                        <input id="numetele" type="number"></input>
+                    </div>
+                    <div id="div7">
+                        <button id="boton2">Consultar</button>
+                    </div>
+                </form>
+ 
             </div>
             <div id="text3">Ingreso Solidario</div>
             <div id="text4">
@@ -126,8 +147,10 @@
                 Si encontro su nombre en la primera etapa y esta plenamente<br>
                 identificado, no ha perdido su beneficio.
             </div>
-            <div><a href="#caja5" id="ver">Ver más </a></div>
-            <a href="#caja5" ><img  id="imgfle2" src="/pinctures/Icon ionic-ios-arrow-down@2x.png" alt=""></a>
+            <div><a href="#caja5" id="ver"><strong>ver más</strong></a></div>
+            <a href="#caja5" >
+                <img id="imgfle2" src="/pinctures/Icon ionic-ios-arrow-down@2x.png" alt="">
+            </a>
             
         </div>
         <div id="caja5">
@@ -154,7 +177,7 @@
                     de un ciclo posterior de pagos. Durante esta etapa , las entidades financieras se conctatarán con usted<br>
                     para darle las indicaciones de como recibir el giro o hacer la apertura de un deposito simplificado a través de su celular.
                 </div>
-                <div><a href="#circulito5" id="ver">Ver más </a></div>
+                <div><a href="#circulito5" id="ver"><strong>ver más</strong></a></div>
                 <a href="#circulito5"><img  id="imgfle2" src="/pinctures/Icon ionic-ios-arrow-down@2x.png" alt=""></a>
              
                 <div id="circulito5">5</div>

@@ -18,3 +18,7 @@ Página web en un iphone 14 pro max:
 Página web desde otros operativos web:
 
 ![alt text](pinctures/readmephoto/otros.jpg)
+
+                    
+                    
+                  
