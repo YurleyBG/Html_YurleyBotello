@@ -1,6 +1,6 @@
-## INGRESO SOLIDARIO(APLICATIVO WEB)
+## INGRESO SOLIDARIO( PROTOTIPO DE APLICATIVO WEB)
 
-* Prototipo de página web que permitira a los usuarios verificar sin son beneficiarios del ingreso por  parte del gobierno, también dará información acerca de la preguntas más frecuentes.
+* Prototipo de página web que permitirá a los usuarios verificar sin son beneficiarios del ingreso por parte del gobierno, también dará información acerca de la preguntas más frecuentes.
 
 
 puedes tener acceso a ella desde cualquier sitio y aparato movil.(iphone 14 pro max y 1080px)
@@ -18,7 +18,7 @@ Prototipo de página web en un iphone 14 pro max:
 ![alt text](pinctures/readmephoto/iphone14promax.jpg)
 
 
-Prototipo de página webdesde otros operativos web:
+Prototipo de página web desde otros operativos web:
 
 ![alt text](pinctures/readmephoto/otros.jpg)
 
