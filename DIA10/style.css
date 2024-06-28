@@ -2,33 +2,30 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-
 }
-
 #container{
     display: grid;
     width:100vw;
     height:57vw;
-
-   
-   
+    overflow: hidden;
 }
-
 #menufo{
     margin-left: 2vw;
     margin-top: 1vw;
-    width: 3vw;
-    height: 3vw;
+    width: 2vw;
+    height: 2vw;
 }
 #perfil{
-    position: relative;
-    margin-left:68vw ;
+    position: absolute;
     margin-top: 1vw;
-    width: 3vw;
-    height: 3vw;
+    margin-left:90vw ;
     
 }
-
+#abajo{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 6vw;
+}
 .cajaG {
     width: 80vw;
     height: 52vw;
@@ -85,10 +82,7 @@
     grid-row-end: 3;
     background-color:white ;
     align-items: center;
-    
-  
-
-
+   
 }
 #container #logo h3{
     margin-top: -2.5vw;
@@ -96,9 +90,7 @@
     font-size: 2vw;
     text-align:center;
     color:#0280fe;
-
 }
-
 #container #logo #carita{
     margin-left: 1.5vw;
     margin-top: 1.5vw;
@@ -134,26 +126,22 @@
     width: 100vw;
     height: 5vw;
     background-color:white;
-   
 }
 #main {
     margin-top: 2vw;
     font-size: 1vw;
-    padding-left: 1vw;
-    opacity: 0;
-
+    padding-left: 2vw;
+    opacity: 1;
 }
 #title1{
     margin-top: 2vw;
     font-size: 1vw;
     padding-left: 1vw;
-    opacity: 0;
+    opacity: 1;
 }
 .cajaG h2{
     margin-top: 2vw;
     margin-left:2vw;
-    
-    
 }
 .cajaG h6{
     color: rgb(167, 162, 162);
@@ -168,7 +156,6 @@
     font-size: 2vw;
     margin-left: 1vw;
     padding-top: 1vw;
-
 }
 #textico2{
     position:relative;
@@ -187,7 +174,6 @@
     font-size: 2vw;
     margin-left: 1vw;
     padding-top: 1vw;
-
 }
 #textico5{
     position:relative;
@@ -206,7 +192,6 @@
     font-size: 2vw;
     margin-left: 1vw;
     padding-top: 1vw;
-
 }
 #textico8{
     position:relative;
@@ -225,7 +210,6 @@
     font-size: 2vw;
     margin-left: 1vw;
     padding-top: 1vw;
-
 }
 #textico11{
     position:relative;
@@ -262,21 +246,79 @@ progress{
     height: 1vw;
     margin-left: 16vw;
     margin-top:1.5vw;
-  
-
-
 }
-
+#element{
+    cursor: pointer; 
+    margin-top:0.5vw ;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+.opc {
+    cursor: pointer; 
+    margin-top:0.5vw ;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+}
+#charts1{
+    cursor: pointer; 
+    margin-top:0.5vw ;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+#Widgets1{
+    cursor: pointer; 
+    margin-top:0.5vw ;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+#Tables1{
+    cursor: pointer; 
+    margin-top:0.5vw ;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+#forms1{
+    cursor: pointer; 
+    margin-top:0.5vw ;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+#forms1:hover {
+    background-color: #0280fe;
+}
+#Tables1:hover {
+    background-color: #0280fe;
+}
+#Widgets1:hover {
+    background-color: #0280fe;
+}
+#charts1:hover {
+    background-color: #0280fe;
+}
+#element:hover {
+    background-color: #0280fe;
+}
+.opc:hover {
+    background-color: #0280fe;
+}
 .all ul{
     list-style: none;
     margin-top: 1vw;
     padding:0 1vw;
 }
-
-
 .all ul li .img{
+    width: 4vw;
+    height: 2vw;
     font-size: 2vw;
-    padding: 0 1vw;;
+    padding-left: 1.5vw;
+    padding-top: -3vw;
 }
 .all ul li a{
     text-decoration: none;
@@ -284,19 +326,34 @@ progress{
     font-size: 1vw;
     padding-left: 1vw;
     opacity: 1;
-    pointer-events: none;
+    pointer-events: none;  
+}
+.algo{
+    width: 4vw;
+    height:2vw;
     
 }
 #cadena1{
+    display: none;
+    align-items: center;
+}
+#two{
     opacity:0;
     align-items: center;
 }
-
+#imgp{
+    width: 3vw;
+    height: 3vw;
+}
 #check:checked ~ .menu{
     width: 5vw;
     height:57vw
-
 }
+#check:checked ~ #perfil{
+    margin-left: 98vw;
+   
+}
+
 #check:checked ~ .menu #logo h3{
     opacity: 0;
 }
@@ -304,18 +361,21 @@ progress{
     margin-top: 4vw;
     margin-left: 1vw;
     width: 3vw;
-
+}
+#check:checked ~ .menu #main {
+    opacity: 0;
+}
+#check:checked ~ .menu #title1 {
+    opacity: 0;
 }
 #check:checked ~ .menu #boton #img1{
     margin-left: 1vw;
 }
 #check:checked ~ .menu #boton #textbo{
     opacity: 0;
-
 }
 #check:checked~ .menu .all ul li .img{
     margin-left: -1vw;
-   
 }
 #check:checked~ .cajaG{
     width: 94vw;
@@ -325,16 +385,12 @@ progress{
     margin-left: 1.5vw;
     height:10vw;
     margin-top: 5vw;
-  
 }
-
-
 #check:checked~ .cajaG #cajita2{
     width: 21.5vw;
     margin-left: 24.5vw;
     height:10vw;
     margin-top: -10vw;
-    
 }
 #check:checked~.cajaG #cajita3{
     width: 21.5vw;
@@ -348,7 +404,6 @@ progress{
     height:10vw;
     margin-top: -10vw;
 }
-
 #check:checked~ .cajaG #cajita5{
     width: 90vw;
     margin-left: 1.5vw;
@@ -358,7 +413,6 @@ progress{
     opacity: 0;
     pointer-events: auto;
 }
-
 #check:checked~ .cajaG .imagenes{
     width: 1.2vw;
     height: 1.2vw;
@@ -367,12 +421,18 @@ progress{
 #abrir{
     display: none;
 }
-
 #check {
     display: none;
 }
 #abrir:checked ~ #cadena1{
-    opacity: 1;
-    
+    display: flex;
 }
-
+#abrir:checked ~ #charts{
+  opacity: 0;
+}
+#abrir2{
+    display: none;
+}
+#abrir2:checked ~ #two{
+    opacity: 1;
+}
