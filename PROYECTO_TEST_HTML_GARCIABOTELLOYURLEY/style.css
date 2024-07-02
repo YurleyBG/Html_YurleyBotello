@@ -18,6 +18,7 @@ body{
     margin: auto;
     width: 100vw;
     height: 300vw;
+   
 }
 #barraazul1{
     margin-top: -10vw;
@@ -25,10 +26,10 @@ body{
     width: 100vw;
     height: 10vw;
     position: fixed;
-    display: flex;
     text-align: center;
     justify-content: space-evenly;
     font-family: letra1;
+    z-index: 2;
 }
 #boton1{
     margin-top: 4vw;
@@ -57,7 +58,7 @@ a{
     text-decoration: none;
 }
 #caja1{
-    border: 1px solid black;
+
     margin-top: 10vw;
     background-image: url("pinctures/Fondo@2x.png");
     background-repeat: no-repeat;
@@ -65,13 +66,16 @@ a{
     height: 50vw;
 }
 #blanco{
+    
     background-color: white;
     width: 30vw;
     height: 40vw;
-    margin-top: 5vw;
+    margin-top: 9vw;
     margin-left: 6vw;
     border-radius: 1vw;
     border: 2px solid white;
+    position: relative;
+    top: 2vw;
 }
 #text1{
     font-size: 2vw;
@@ -124,13 +128,17 @@ a{
     margin-left: 1vw;
     width: 28vw;
     height: 2.5vw;
+    
 }
 #div7{
     margin-left: 1vw;
     width: 28vw;
     height: 2.5vw;
+  
 }
 #docu{
+    font-family: letra1;
+    font-size: 1vw;
     width: 28vw;
     height: 2vw;
 }
@@ -155,6 +163,7 @@ a{
     height: 2vw;
 }
 #boton2{
+
     font-family: letra1;
     margin-top: 3vw;
     margin-left: 10vw ;
@@ -183,9 +192,10 @@ a{
     color:white; 
 }
 #caja2{
+
     border: 1px solid white;
-    width: 100vw;
-    height: 60vw;
+    width: 100em;
+    height: 60em;
     background-color: white;
 }
 #text5{
@@ -265,6 +275,7 @@ a{
 }
 #contenedor4{
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
 }
@@ -392,8 +403,8 @@ a{
 }
 #imgfle2{
     margin-left: 48vw;;
-    width: 2vw;
-    height: 2vw;
+    width: 1vw;
+    height: 0.5vw;
     color: black;
 }
 #caja5{
@@ -401,6 +412,7 @@ a{
     width: 100vw;
     height: 80vw;
     background-color: white;
+
 }
 #circulito3{
     font-family: letra1;
@@ -531,7 +543,6 @@ a{
 
 @media only screen and (max-width:430px)
 {
-    
     #caja1 #blanco #nombres{
         font-size: 1vw;
     }
@@ -618,6 +629,26 @@ a{
     #boton2{
         margin-top: 6vw;
     }
- }
+    #caja2 #imgfle{
+        position: relative;
+        top: -2.5vw;
+    
+    }
+    #caja3 #imgfle1{
+        position: relative;
+        top: -2vw;
+    
+    }
+    #caja4 #imgfle2{
+        position: relative;
+        top: -2.5vw;
+    
+    }
+    #caja5 #imgfle2{
+        position: relative;
+        top: -2.5vw;
+    
+    }
+}
 
  
