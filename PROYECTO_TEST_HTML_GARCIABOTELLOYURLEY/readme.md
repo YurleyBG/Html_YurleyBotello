@@ -1,27 +1,43 @@
-## INGRESO SOLIDARIO( PROTOTIPO DE APLICATIVO WEB)
+## ° INGRESO SOLIDARIO
 
-* Prototipo de página web que permitirá a los usuarios verificar sin son beneficiarios del ingreso por parte del gobierno, también dará información acerca de la preguntas más frecuentes.
+Este repositorio contiene el código fuente para una página web informatica sobre el programa de ingreso solidario, una ayuda económica del gobierno colombiano para las familias afectadas por la pandemia de COVID-19.
 
+## Descripción
 
-puedes tener acceso a ella desde cualquier sitio y aparato movil.(iphone 14 pro max y 1080px)
+La página web cuenta con cuatro opciones principales:
 
-Link del prototipo de página web( http://127.0.0.1:5500/index.html )
+1. **Consultas** : Incluye un formulario para que los usuarios verifiquen su estado en el programa.
 
+2. **¿Qué es?** : Explica en detalle qué es el ingreso solidario y quienes pueden beneficiarse.
 
-Prototipo de página web en dimensiones de 1920px * 1080px:
+3. **Entrega** : Detalla las etapas de entrega del subsidio y los bancos autorizados para la distribucción.
 
-![alt text](pinctures/readmephoto/dimesion1080px.jpg)
-
-
-Prototipo de página web en un iphone 14 pro max:
-
-![alt text](pinctures/readmephoto/iphone14promax.jpg)
+4. **Preguntas Frecuentes** : Espacio dedicado para  responder las dudas de los usuarios.
 
 
-Prototipo de página web desde otros operativos web:
+Esta página incluye una barra fija junto al logotipo del gobierno más varias opciones que permitiran una mejor navegación.
 
-![alt text](pinctures/readmephoto/otros.jpg)
+## Tecnologías Utilizadas
 
-                    
-                    
-                  
+* HTML5
+* CSS3
+
+##  Estructura del proyecto
+![alt text](pinctures/estructura.jpg)
+
+## Caracteristicas del diseño
+ 
+* Diseño responsivo utilizando  unidades  vw(viewport width) para las dimensiones.
+* Barra de navegación fija en la parte superior.
+* Uso de imagen de fondo, logotipos de bancos  autorizados y del gobierno.
+* Media queris para adaptacion de pantallas de iphone 14 pro max(430px - 932px)
+
+## Instrucciones de uso
+
+1.  Abrir el archivo index.html en un servidor  compatible.
+
+2. Descarga y abre los archivos en tu maquina local. 
+
+## Créditos
+ Este proyecto fue desarrollado por Yurley Botello
+ Garcia como taller de refuerzo y practica en HTML y CSS.

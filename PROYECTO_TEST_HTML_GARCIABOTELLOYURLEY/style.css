@@ -25,6 +25,7 @@ body{
     background-color:#3464cb ;
     width: 100vw;
     height: 10vw;
+    display: flex;
     position: fixed;
     text-align: center;
     justify-content: space-evenly;
@@ -192,10 +193,10 @@ a{
     color:white; 
 }
 #caja2{
-
+    
     border: 1px solid white;
-    width: 100em;
-    height: 60em;
+    width: 100vw;
+    height: 60vw;
     background-color: white;
 }
 #text5{
@@ -274,8 +275,6 @@ a{
     font-size: 2.5vw;
 }
 #contenedor4{
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
 }
