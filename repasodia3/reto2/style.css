@@ -1,0 +1,36 @@
+
+body{
+    background-image: url("pinctures/sky.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#img2{
+
+    width: 15vw;
+    animation-name: nubeb;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+}
+#img3{
+    position: relative;
+    width: 15vw;
+    animation-name: nube1;
+    animation-iteration-count: infinite;
+    animation-duration: 6.5s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    top: 14vw;
+  
+}
+@keyframes nubeb {
+    0% {transform: translateX(-35vw);}
+    100%{transform: translateX(120vw);}
+    
+}
+@keyframes nube1 {
+    0% {transform: translateX(-35vw);}
+    100%{transform: translateX(120vw);}
+    
+}

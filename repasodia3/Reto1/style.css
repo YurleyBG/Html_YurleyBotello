@@ -1,0 +1,99 @@
+ #principal{
+    background-color: black;
+    height: 100vw;
+ }
+ #texto{
+    position: relative;
+    font-size: 6vw;
+    text-align: center;
+    justify-content: center;
+    top: 10vw;
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    animation-name:u;
+    animation-duration: 5s;
+   
+   
+}
+#color1{
+    color: rgb(199, 194, 194);
+    animation-name:u;
+    animation-duration: 0.2s;
+}
+
+#color2{
+    color:aqua;
+    animation-name:p;
+    animation-duration: 0.4s;
+}
+#color3{
+    color: rgb(199, 194, 194);
+    animation-name:ye;
+    animation-duration: 0.6s;
+}
+#color4{
+    color:aqua;
+    animation-name:o;
+    animation-duration: 0.8s;
+}
+#color5{
+    color: rgb(199, 194, 194);
+    animation-name:v;
+    animation-duration: 1s;
+}
+#color6{
+    color:aqua;
+    animation-name:e;
+    animation-duration: 1.2s;
+}
+#color7{
+    color: rgb(199, 194, 194);
+    animation-name:r;
+    animation-duration: 1.4s;
+    transform: rotateX(50%);
+}
+
+@keyframes u{
+    0% { transform: rotateX(85deg);}
+    50%{ transform: rotateX(0deg);}
+    100% { transform: rotateX(180deg);}
+    
+}
+@keyframes p{
+    0% { transform: rotateX(85deg);}
+    50%{ transform: rotateX(0deg);}
+    100% { transform: rotateX(180deg);}
+    
+}
+@keyframes ye{
+    0% { transform: rotateX(85deg);}
+    50%{ transform: rotateX(0deg);}
+    100% { transform: rotateX(180deg);}
+    
+}
+@keyframes o{
+    0% { transform: rotateX(85deg);}
+    50%{ transform: rotateX(0deg);}
+    100% { transform: rotateX(180deg);}
+    
+}
+@keyframes v{
+    0% { transform: rotateX(85deg);}
+    50%{ transform: rotateX(0deg);}
+    100% { transform: rotateX(180deg);}
+    
+}
+@keyframes e{
+    0% { transform: rotateX(85deg);}
+    50%{ transform: rotateX(0deg);}
+    100% { transform: rotateX(180deg);}
+    
+}
+@keyframes r{
+    0% { transform: rotateX(85deg);}
+    50%{ transform: rotateX(0deg);}
+    100% { transform: rotateX(180deg);}
+    
+}
+
+
