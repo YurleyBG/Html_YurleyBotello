@@ -24,6 +24,7 @@ body{
    
 }
 #barraazul1{
+    
     margin-top: -10vw;
     background-color:#3464cb ;
     width: 100vw;
@@ -645,23 +646,28 @@ a{
         height: 4.5vw;
     }
     #caja1 #blanco #numedocu{
+        font-size: 1.9vw;
         width: 56vw;
         height: 3vw;
     }
     #caja1 #blanco #name1{ 
+        font-size: 1.9vw;
         width: 56vw;
         height: 3vw;
     }
     #caja1 #blanco #apellido1{
+        font-size: 1.9vw;
         width: 56vw;
         height: 3vw;
     }
     #caja1 #blanco #fid{
+        
         font-size: 2vw;
         width: 56.5vw;
         height: 3.5vw;
     }
     #caja1 #blanco #numetele{
+        font-size: 1.9vw;
         width: 56vw;
         height: 3vw;
     }
