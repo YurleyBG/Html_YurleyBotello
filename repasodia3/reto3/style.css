@@ -1,173 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 
+}
+#fotograma34{
+    display: flex;
+    position: relative;
+    margin-top: 4vw;
+    width: 30vw;
+    height: 30vw;
+    overflow: hidden;
+    animation-name: person1;
+    animation-duration: 10s;
+    left:80vw;
+    
+}
 #fotograma1{
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 40vw;
-    position: absolute;
-    animation-name: frame1;
+    position: relative;
+    width: 50vw;
+    height: 300vw;
+    animation-name: person;
     animation-duration: 1s;
-    opacity: 0;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-  
-}
-#fotograma2{
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 38vw;
-    position: absolute;
-    animation-name: frame2;
-    animation-duration: 1.5s;
-    opacity: 0;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-}
-   
-#fotograma3{
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 37vw;
-    animation-name: frame3;
-    position: absolute;
-    animation-duration: 1s;
-    opacity:0;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-  
-}
-#fotograma4{
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 40vw;
-    position: absolute;
-    animation-name: frame4;
-    animation-duration: 2s;
-    opacity:0;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-   
-}
-#fotograma5{
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 40vw;
-    position: absolute;
-    animation-name: frame5;
-    animation-duration: 1s;
-    opacity:0;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-   
-}
-#fotograma6{
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 40vw;
-    position: absolute;
-    animation-name: frame6;
-    animation-duration: 2s;
-    opacity:0;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     
+
 }
-#fotograma7{
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 40vw;
-    position: absolute;
-    animation-name: frame7;
-    animation-duration: 1s;
-    opacity:0;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  
-}
-#fotograma8{
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 40vw;
-    position: absolute;
-    animation-name: frame8;
-    animation-duration: 2s;
-    opacity:0;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+@keyframes person1 {
+    100%{left: -80vw;}
     
 }
-#fotograma9{
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 40vw;
-    position: absolute;
-    animation-name: frame9;
-    animation-duration: 1s;
-    opacity:0;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  
-   
-   
-}
-#fotograma10{ 
-    width: 20vw;
-    height: 25vw;
-    margin-top: 4vw;
-    margin-left: 40vw;
-    position: absolute;
-    animation-name: frame10;
-    animation-duration: 2s;
-    opacity:0;
-    animation-iteration-count:infinite;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
+
+@keyframes person {
+    0%{top: 0vw;}
+    10% {top: 0vw;}
+    10.0001% {top: -30vw;}
+    20% {top: -30vw;}
+    20.0001% {top: -60vw;}
+    30% {top: -60vw;}
+    30.0001% {top: -90vw;}
+    40% {top: -90vw;}
+    40.0001% {top: -120vw;}
+    50% {top: -120vw;}
+    50.0001% {top: -150vw;}
+    60% {top: -150vw;}
+    60.0001% {top: -180vw;}
+    70% {top: -180vw;}
+    70.0001% {top: -210vw;}
+    80% {top: -210vw;}
+    80.0001% {top: -240vw;}
+    90% {top: -240vw;}
+    90.0001% {top: -270vw;}
+    100% {top: -270vw;}
+    100.0001% {top: -300vw;}
 
 
-   
-  
-}
-@keyframes frame1 {
     
-    100%{ opacity: 100px;}
-}
-@keyframes frame2{
-    100%{ opacity: 100%;}
-}
-@keyframes frame3{
-    100%{ opacity: 100%;}
-}
-@keyframes frame4{
-    100%{ opacity: 100%;}
-}
-@keyframes frame5{
-    100%{ opacity: 100%;}
-}
-@keyframes frame6{
-    100%{ opacity: 100%;}
-}
-@keyframes frame7{
-    100%{ opacity: 100%;}
-}
-@keyframes frame8{
-    100%{ opacity: 100%;}
-}
-@keyframes frame9{
-    100%{ opacity: 100%;}
-}
-@keyframes frame10{
-   100%{ opacity: 100%;}
 }
