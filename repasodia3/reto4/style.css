@@ -62,11 +62,12 @@ body{
     cursor: pointer;
 }
 #caja5:hover{
+    transition-duration: 1s;
     background-color: rgb(240, 59, 89);
 }
 @keyframes salto {
     0% {transform: translateY(100%)}
-    50%{transform: translateY(-40%)}
+    50%{transform: translateY(-41.5%)}
     100%{transform: translateY(0%)}
     
 }

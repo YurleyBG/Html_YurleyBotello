@@ -4,8 +4,15 @@ body{
     font-size:6rem;
 }
 
- 
+ #principal{
+    width: 20vw;
+    height: 100vw;
+    justify-content: center;
+    text-align: center;
+ }
 #u{
+   
+    margin-top: 20vw;
     margin-left:30vw ;
     color: #8898a2;
     animation-name:u;
@@ -16,7 +23,7 @@ body{
 }
 
 #p{
-    margin-top: -17vw;
+    margin-top: -12vw;
     margin-left:35vw ;
     color:#80bfb2;
     animation-name:p;
@@ -24,7 +31,7 @@ body{
     animation-fill-mode: forwards;
 }
 #y{
-    margin-top: -17vw;
+    margin-top: -12vw;
     margin-left:42vw ;
     color: #8898a2;
     animation-name:ye;
@@ -32,7 +39,7 @@ body{
     animation-fill-mode: forwards;
 }
 #o{
-    margin-top: -17vw;
+    margin-top: -12vw;
     margin-left:50vw ;
     color:#82bfb2;
     animation-name:o;
@@ -40,7 +47,7 @@ body{
     animation-fill-mode: forwards;
 }
 #v{
-    margin-top: -17vw;
+    margin-top: -12vw;
     margin-left:55vw ;
     color: #8898a2;
     animation-name:v;
@@ -48,7 +55,7 @@ body{
     animation-fill-mode: forwards;
 }
 #e{
-    margin-top: -17vw;
+    margin-top: -12vw;
     margin-left:60vw ;
     color:#80bfb2;
     animation-name:e;
@@ -57,7 +64,7 @@ body{
     
 }
 #r{
-    margin-top: -16.5vw;
+    margin-top: -12vw;
     margin-left:65vw ;
     color:#8898a2;
     animation-name:r;

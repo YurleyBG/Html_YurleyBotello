@@ -32,7 +32,7 @@
     margin-left: 40vw;
     animation-name: frame3;
     position: absolute;
-    animation-duration: 3s;
+    animation-duration: 1s;
     opacity:0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
@@ -45,7 +45,7 @@
     margin-left: 40vw;
     position: absolute;
     animation-name: frame4;
-    animation-duration: 1s;
+    animation-duration: 2s;
     opacity:0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
@@ -71,7 +71,7 @@
     margin-left: 40vw;
     position: absolute;
     animation-name: frame6;
-    animation-duration: 1s;
+    animation-duration: 2s;
     opacity:0;
     animation-iteration-count: infinite;
     
@@ -95,7 +95,7 @@
     margin-left: 40vw;
     position: absolute;
     animation-name: frame8;
-    animation-duration: 1s;
+    animation-duration: 2s;
     opacity:0;
     animation-iteration-count: infinite;
     
@@ -110,7 +110,7 @@
     animation-duration: 1s;
     opacity:0;
     animation-iteration-count: infinite;
-    visibility:visible;
+  
    
    
 }
@@ -121,42 +121,41 @@
     margin-left: 40vw;
     position: absolute;
     animation-name: frame10;
-    animation-duration: 1s;
+    animation-duration: 2s;
     opacity:0;
     animation-iteration-count:infinite;
     animation-fill-mode: forwards;
-    visibility: visible;
+
    
   
 }
 @keyframes frame1 {
-    100%{ opacity: 100;
-    }
+    100%{ opacity: 100%;}
 }
 @keyframes frame2{
-    100%{ opacity: 100;}
+    100%{ opacity: 100%;}
 }
 @keyframes frame3{
-    100%{ opacity: 100;}
+    100%{ opacity: 100%;}
 }
 @keyframes frame4{
-    100%{ opacity: 100;}
+    100%{ opacity: 100%;}
 }
 @keyframes frame5{
-    100%{ opacity: 100;}
+    100%{ opacity: 100%;}
 }
 @keyframes frame6{
     100%{ opacity: 100%;}
 }
 @keyframes frame7{
-    100%{ opacity: 100;}
+    100%{ opacity: 100%;}
 }
 @keyframes frame8{
-    100%{ opacity: 100;}
+    100%{ opacity: 100%;}
 }
 @keyframes frame9{
-    100%{ opacity: 100;}
+    100%{ opacity: 100%;}
 }
 @keyframes frame10{
-   100%{ opacity: 100;}
+   100%{ opacity: 100%;}
 }
