@@ -9,22 +9,16 @@ body{
     display: flex;
     justify-content: center;
     height: 17vw;
-   
  }
 #u{
-   
-   
     color: #8898a2;
     animation-name:u;
     animation-duration: 5s;
     animation-fill-mode: forwards;
     transform: rotateX(180deg);
-    
-   
 }
 
 #p{
-   
     color:#80bfb2;
     animation-name:p;
     animation-duration: 6s;
@@ -45,7 +39,6 @@ body{
     animation-fill-mode: forwards;
 }
 #v{
- 
     color: #8898a2;
     animation-name:v;
     animation-duration: 9s;
@@ -60,13 +53,10 @@ body{
     
 }
 #r{
-    
     color:#8898a2;
     animation-name:r;
     animation-duration: 11s;
     animation-fill-mode: forwards;
-  
- 
 }
 
 @keyframes u{
@@ -111,5 +101,42 @@ body{
     100% { transform: rotateX(180deg);}
     
 }
+#img{
+    position: relative;
+    margin-top: 2vw;
+    margin-left: -30vw;
+    width: 5vw;
+    height: 5vw;
+}
+#check{
+    display: none;
+}
+#menu{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    padding: 1vw;
+}
+#check:checked~#img{
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 20vw;
+
+}
+#check:checked~#menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 15vw;
+    height: 25vw;
+    background-color: rgb(22, 219, 219);
+    margin-top: 8vw;
+    margin-left: -65.5vw;
+}
+ 
+
 
 
