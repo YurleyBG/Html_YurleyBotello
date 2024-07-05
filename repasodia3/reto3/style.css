@@ -7,10 +7,10 @@
     position: absolute;
     animation-name: frame1;
     animation-duration: 1s;
-    opacity: 0%;
+    opacity: 0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-    z-index: 1;
+  
 }
 #fotograma2{
     width: 20vw;
@@ -20,11 +20,11 @@
     position: absolute;
     animation-name: frame2;
     animation-duration: 2s;
-    opacity: 0%;
+    opacity: 0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-    z-index: 2;
 }
+   
 #fotograma3{
     width: 20vw;
     height: 25vw;
@@ -33,10 +33,10 @@
     animation-name: frame3;
     position: absolute;
     animation-duration: 3s;
-    opacity:0%;
+    opacity:0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-    z-index: 3;
+  
 }
 #fotograma4{
     width: 20vw;
@@ -46,10 +46,10 @@
     position: absolute;
     animation-name: frame4;
     animation-duration: 1s;
-    opacity:0% ;
+    opacity:0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-    z-index: 4;
+   
 }
 #fotograma5{
     width: 20vw;
@@ -59,10 +59,10 @@
     position: absolute;
     animation-name: frame5;
     animation-duration: 1s;
-    opacity:0%;
+    opacity:0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
-    z-index: 5;
+   
 }
 #fotograma6{
     width: 20vw;
@@ -72,9 +72,9 @@
     position: absolute;
     animation-name: frame6;
     animation-duration: 1s;
-    opacity:0%;
+    opacity:0;
     animation-iteration-count: infinite;
-    z-index: 6;
+    
 }
 #fotograma7{
     width: 20vw;
@@ -84,9 +84,9 @@
     position: absolute;
     animation-name: frame7;
     animation-duration: 1s;
-    opacity:0% ;
+    opacity:0;
     animation-iteration-count: infinite;
-    z-index: 7;
+  
 }
 #fotograma8{
     width: 20vw;
@@ -96,9 +96,9 @@
     position: absolute;
     animation-name: frame8;
     animation-duration: 1s;
-    opacity:0% ;
+    opacity:0;
     animation-iteration-count: infinite;
-    z-index: 8;
+    
 }
 #fotograma9{
     width: 20vw;
@@ -108,9 +108,10 @@
     position: absolute;
     animation-name: frame9;
     animation-duration: 1s;
-    opacity:0% ;
+    opacity:0;
     animation-iteration-count: infinite;
-    z-index: 9;
+    visibility:visible;
+   
    
 }
 #fotograma10{ 
@@ -121,39 +122,41 @@
     position: absolute;
     animation-name: frame10;
     animation-duration: 1s;
-    opacity:-10%;
+    opacity:0;
     animation-iteration-count:infinite;
     animation-fill-mode: forwards;
-    z-index: 10;
+    visibility: visible;
+   
   
 }
 @keyframes frame1 {
-    100%{ opacity: 100%;}
+    100%{ opacity: 100;
+    }
 }
 @keyframes frame2{
-    100%{ opacity: 100%;}
+    100%{ opacity: 100;}
 }
 @keyframes frame3{
-    100%{ opacity: 100%;}
+    100%{ opacity: 100;}
 }
 @keyframes frame4{
-    100%{ opacity: 100%;}
+    100%{ opacity: 100;}
 }
 @keyframes frame5{
-    100%{ opacity: 100%;}
+    100%{ opacity: 100;}
 }
 @keyframes frame6{
     100%{ opacity: 100%;}
 }
 @keyframes frame7{
-    100%{ opacity: 100%;}
+    100%{ opacity: 100;}
 }
 @keyframes frame8{
-    100%{ opacity: 100%;}
+    100%{ opacity: 100;}
 }
 @keyframes frame9{
-    100%{ opacity: 100%;}
+    100%{ opacity: 100;}
 }
 @keyframes frame10{
-   100%{ opacity: 100%;}
+   100%{ opacity: 100;}
 }
