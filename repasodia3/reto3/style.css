@@ -10,32 +10,35 @@
     opacity: 0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
   
 }
 #fotograma2{
     width: 20vw;
     height: 25vw;
     margin-top: 4vw;
-    margin-left: 40vw;
+    margin-left: 38vw;
     position: absolute;
     animation-name: frame2;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     opacity: 0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
 }
    
 #fotograma3{
     width: 20vw;
     height: 25vw;
     margin-top: 4vw;
-    margin-left: 40vw;
+    margin-left: 37vw;
     animation-name: frame3;
     position: absolute;
     animation-duration: 1s;
     opacity:0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
   
 }
 #fotograma4{
@@ -49,6 +52,7 @@
     opacity:0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
    
 }
 #fotograma5{
@@ -62,6 +66,7 @@
     opacity:0;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
    
 }
 #fotograma6{
@@ -74,6 +79,7 @@
     animation-duration: 2s;
     opacity:0;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     
 }
 #fotograma7{
@@ -86,6 +92,7 @@
     animation-duration: 1s;
     opacity:0;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
   
 }
 #fotograma8{
@@ -98,6 +105,7 @@
     animation-duration: 2s;
     opacity:0;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     
 }
 #fotograma9{
@@ -110,6 +118,7 @@
     animation-duration: 1s;
     opacity:0;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
   
    
    
@@ -125,12 +134,15 @@
     opacity:0;
     animation-iteration-count:infinite;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
 
    
   
 }
 @keyframes frame1 {
-    100%{ opacity: 100%;}
+    
+    100%{ opacity: 100px;}
 }
 @keyframes frame2{
     100%{ opacity: 100%;}

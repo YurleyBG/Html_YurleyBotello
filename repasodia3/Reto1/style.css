@@ -5,58 +5,54 @@ body{
 }
 
  #principal{
-    width: 20vw;
-    height: 100vw;
+    font-size: 4vw;
+    display: flex;
     justify-content: center;
-    text-align: center;
+    height: 17vw;
+   
  }
 #u{
    
-    margin-top: 20vw;
-    margin-left:30vw ;
+   
     color: #8898a2;
     animation-name:u;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    transform: rotateX(180deg);
     
    
 }
 
 #p{
-    margin-top: -12vw;
-    margin-left:35vw ;
+   
     color:#80bfb2;
     animation-name:p;
     animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 #y{
-    margin-top: -12vw;
-    margin-left:42vw ;
+    margin-left: 2vw;
     color: #8898a2;
     animation-name:ye;
     animation-duration: 7s;
     animation-fill-mode: forwards;
 }
 #o{
-    margin-top: -12vw;
-    margin-left:50vw ;
+    margin-left: 2vw;
     color:#82bfb2;
     animation-name:o;
     animation-duration: 8s;
     animation-fill-mode: forwards;
 }
 #v{
-    margin-top: -12vw;
-    margin-left:55vw ;
+ 
     color: #8898a2;
     animation-name:v;
     animation-duration: 9s;
     animation-fill-mode: forwards;
 }
 #e{
-    margin-top: -12vw;
-    margin-left:60vw ;
+   
     color:#80bfb2;
     animation-name:e;
     animation-duration: 10s;
@@ -64,8 +60,7 @@ body{
     
 }
 #r{
-    margin-top: -12vw;
-    margin-left:65vw ;
+    
     color:#8898a2;
     animation-name:r;
     animation-duration: 11s;
@@ -75,43 +70,43 @@ body{
 }
 
 @keyframes u{
-    0% { transform: rotateX(85deg);}
+    6% { transform: rotateX(85deg);}
     50%{ transform: rotateX(0deg);}
     100% { transform:rotateX(180deg);}
     
 }
 @keyframes p{
-    0% { transform: rotateX(85deg);}
+    6% { transform: rotateX(85deg);}
     50%{ transform: rotateX(0deg);}
     100% { transform: rotateX(180deg);}
     
 }
 @keyframes ye {
-    0% { transform: rotateX(85deg);}
+    6% { transform: rotateX(85deg);}
     50%{ transform: rotateX(0deg);}
     100% { transform: rotateX(180deg);}
     
 }
 @keyframes o{
-    0% { transform: rotateX(85deg);}
+    6% { transform: rotateX(85deg);}
     50%{ transform: rotateX(0deg);}
     100% { transform: rotateX(180deg);}
     
 }
 @keyframes v{
-    0% { transform: rotateX(85deg);}
+    6% { transform: rotateX(85deg);}
     50%{ transform: rotateX(0deg);}
     100% { transform: rotateX(180deg);}
     
 }
 @keyframes e{
-    0% { transform: rotateX(85deg);}
+    6% { transform: rotateX(85deg);}
     50%{ transform: rotateX(0deg);}
     100% { transform: rotateX(180deg);}
     
 }
 @keyframes r{
-    0% { transform: rotateX(85deg);}
+    6% { transform: rotateX(85deg);}
     50%{ transform: rotateX(0deg);}
     100% { transform: rotateX(180deg);}
     
