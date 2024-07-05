@@ -32,5 +32,61 @@ body{
 @keyframes nube1 {
     0% {transform: translateX(-35vw);}
     100%{transform: translateX(120vw);}
-    
 }
+#imgs{
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 3vw;
+    width: 2vw;
+    height: 2vw;
+}
+#checks{
+    display: none;
+}
+#menU{
+    display: none;
+}
+a{
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+#checks:checked~#imgs{
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 18vw;
+
+}
+#checks:checked~ #menU #Letras:hover{
+    position: relative;
+    background-color: white;
+    width: 10vw;
+    height: 3vw;
+    justify-content: center;
+    text-align: center;
+    left: 1.5vw;
+    top:0.5vw;
+    opacity: 70%;
+}
+#checks:checked~#menU{
+  
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width:15vw;
+    height: 20vw;
+    background-color:  #c1bbc2;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    border-style:solid;
+    border-width: 0.5vw;
+    border-color: rgb(46, 89, 230);
+    border-radius: 1vw;
+    scroll-behavior: smooth;
+    z-index: 2;
+}
+ 
+

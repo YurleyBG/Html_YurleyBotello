@@ -71,3 +71,53 @@ body{
     100%{transform: translateY(0%)}
     
 }
+#hambur{
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    width: 2vw;
+    height: 2vw;
+}
+#check{
+    display: none;
+}
+#menu{
+    display: none;
+}
+a{
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+#check:checked~#hambur{
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 20vw;
+}
+#check:checked~#menu #letras:hover{
+    position: relative;
+    background-color: white;
+    width: 10vw;
+    height: 3vw;
+    left: 1.5vw;
+    top:0.5vw;
+    opacity: 70%;
+}
+#check:checked~#menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 15vw;
+    height: 20vw;
+    background-color:  #e3eef3;
+    margin-top:2vw;
+    margin-left: 2vw;
+    border-style:solid;
+    border-width: 0.5vw;
+    border-color:rgb(240, 182, 96);
+    border-radius: 1vw;
+    scroll-behavior: smooth;
+}
