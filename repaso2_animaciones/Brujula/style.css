@@ -1,13 +1,20 @@
 
+#principal{
+    width: 30vw;
+    height: 30vw;
+    box-shadow: 0vw 2vw 1vw 0vw rgb(177, 175, 175) ;
+    margin: 10vw auto;
+    border-radius: 2vw;
+}
 #cajap{
     width: 30vw;
     height: 30vw;
-    background-color: rgb(252, 252, 252);
-    border: 1px solid  black ;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid  rgb(255, 255, 255) ;
     border-radius: 2vw;
     margin: 10vw auto;
-    box-shadow: 0vw 2vw 1vw 0vw rgb(173, 169, 169) ;
-    transform: rotateX(20deg);
+ 
+
   
 
 }
@@ -18,7 +25,8 @@
     margin-left: 5vw;
     margin-top: 4vw;
     border-radius: 50vw;
-    overflow: hidden;
+
+   
    
 }
 #tri1{
@@ -52,6 +60,9 @@
     cursor: pointer;
 }
 @keyframes flecha {
+    10%{
+        transform: rotateZ(-90deg);
+    }
     100%{
         transform: rotateZ(360deg);
     }

@@ -13,7 +13,7 @@ body{
     height:5vw;
     background-color: white;
     margin-left: 30vw;
-    transition: opacity 1s;
+    transition:  height  0.5s opacity 1s;
 
 }
 #caja2{
@@ -22,7 +22,7 @@ body{
     height: 5vw;
     background-color: white;
     margin-left: 30vw;
-    transition: opacity 1s;
+    transition:  height  0.5s opacity 1s;
 
 }
 #caja3{
@@ -31,7 +31,7 @@ body{
     height: 5vw;
     background-color: white;
     margin-left: 30vw;
-    transition:  opacity 1s;
+    transition:  height  0.5s opacity 1s;
 
 }
 #caja4{
@@ -40,7 +40,7 @@ body{
     height: 5vw;
     background-color: white;
     margin-left: 30vw;
-    transition:  opacity 1s;
+    transition:  height  0.5s opacity 1s;
 }
 #caja5{
     margin-top: -0.5vw;
@@ -48,7 +48,7 @@ body{
     height: 5vw;
     background-color: white;
     margin-left: 30vw;
-    transition:  opacity 1s;
+    transition:  height  0.5s opacity 1s;
  
 }
 .texto{
