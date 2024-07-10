@@ -1,70 +1,98 @@
 
-#principal{
-    width: 30vw;
-    height: 30vw;
-    box-shadow: 0vw 2vw 1vw 0vw rgb(177, 175, 175) ;
-    margin: 10vw auto;
-    border-radius: 2vw;
-}
-#cajap{
-    width: 30vw;
-    height: 30vw;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid  rgb(255, 255, 255) ;
-    border-radius: 2vw;
-    margin: 10vw auto;
- 
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vw auto;
   
+}
 
+#cajap{
+    position: relative;
+    width:30vw;
+    height: 30vw;
+    background-color: #f2f2f2;
+    border-radius: 2vw;
+    box-shadow: 0 1vw 1vw  #ccc,
+    0 1vw 1vw rgba(0,0,0,0.25),
+    0 1.5vw 0 rgb(0,0,0,0.5),
+    0 2vw 3vw rgb(0,0,0,0.1);
 }
 #circulito{
-    background-color: rgb(34, 154, 252);
-    width: 20vw;
-    height: 20vw;
-    margin-left: 5vw;
-    margin-top: 4vw;
+    background: linear-gradient(#1ec9ff, #2971e7);
+    position: absolute;
+    display: flex;
     border-radius: 50vw;
-
-   
-   
+    justify-content: center;
+    align-items: center;
+    inset: 5vw;
+    box-shadow: 0 -0.5vw 0 0.5vw rgba(0,0,0,0.15) 
+    inset 0 5vw 0 rgba(0,0,0,0.1)
+    
 }
-#tri1{
-    position: relative;
-    left:9vw;
+#circulito span{
+    background-color: #f2f2f2;
+    position: absolute;
+    width: 0.15vw;
+    height: 1vw;
+    transform: translateY(-8.5vw)
+    rotate(calc(12deg* var(--i)));
+    transform-origin: 0 9vw;
+    filter: drop-shadow(0.3vw 0.3vw 0vw rgba(0,0,0,0.15));
+}
+#circulito span:after{
+    content: " ";
+    background-color: #fff;
+    position: absolute;
+    width: 0.15vw;
+    height: 1.5vw;
+    transform: rotate(9deg);
+    transform-origin:0 8vw ;
+
+  
+}
+#tri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 2vw;
+    inset: 5vw;
+    left: 14vw;
+    transform: rotate(65deg);
+    filter: drop-shadow(0 0 2vw rgba(0,0,0,0.35));
+    transition: 2s cubic-bezier(1,-0,39,0.51);
+
+}
+#tri::before{
+    content: "";
+    position: absolute;
     top: 1vw;
-    width: 0vw;
-    height: 0vw;
     border-left: 1vw solid transparent;
     border-right: 1vw solid transparent;
-    border-bottom: 10vw solid red;
-   
- 
+    border-bottom: 9vw solid red;
+
 }
-#tri2{
-    position: relative;
-    left:9vw;
-    top: 1vw;
-    width: 0vw;
-    height: 0vw;
+#tri::after{
+    content: "";
+    position: absolute;
+    top: 10vw;
     border-left: 1vw solid transparent;
     border-right: 1vw solid transparent;
-    border-bottom: 8vw solid white;
+    border-bottom: 9vw solid rgb(250, 247, 247);
 
 }
-
-#circulito:hover{
+#cajap:hover #tri{
     animation-name: flecha;
-    animation-duration: 1.5s;
-    z-index: 2;
-    cursor: pointer;
+    animation-duration: 4s;
+
 }
 @keyframes flecha {
     10%{
-        transform: rotateZ(-90deg);
+        transform: rotateZ(-50deg);
     }
     100%{
-        transform: rotateZ(360deg);
+        transform: rotateZ(430deg);
     }
     
 }
