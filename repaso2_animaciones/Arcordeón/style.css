@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(216, 48, 48);
+}
+@font-face {
+    font-family: letra;
+    src: url("type/MYRIADPRO-REGULAR.OTF");
+}
+#caja1{
+   
+    margin-top: 10vw;
+    width: 43vw;
+    height:5vw;
+    background-color: white;
+    margin-left: 30vw;
+  
+}
+#caja2{
+  
+    margin-top: -0.5vw;
+    width: 43vw;
+    height: 5vw;
+    background-color: white;
+    margin-left: 30vw;
+   
+  
+}
+#caja3{
+    margin-top: -0.5vw;
+    width: 43vw;
+    height: 5vw;
+    background-color: white;
+    margin-left: 30vw;
+   
+}
+#caja4{
+    margin-top: -0.5vw;
+    width: 43vw;
+    height: 5vw;
+    background-color: white;
+    margin-left: 30vw;
+}
+#caja5{
+    margin-top: -0.5vw;
+    width: 43vw;
+    height: 5vw;
+    background-color: white;
+    margin-left: 30vw;
+ 
+}
+.texto{
+    position: relative;
+    color: rgb(75, 188, 253);
+    font-size: 1.5vw;
+    left: 1vw;
+    top: 1vw;
+}
+#text1{
+    display: none;
+    position: relative;
+    top: 1vw;
+    left:1vw;
+    font-size: 1.2vw;
+    font-family: letra;
+    
+}
+#check1{
+    display: none;
+}
+#check2{
+    display: none;
+}
+#check3{
+    display: none;
+}
+#check4{
+    display: none;
+}
+#check5{
+    display: none;
+}
+label{
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 2.5vw;
+    margin-left: 70vw;
+    transform: rotateZ(-90deg);
+    color: rgb(75, 188, 253);
+    
+}
+#yo{
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 70vw;
+    transform: rotateZ(-90deg);
+    color: rgb(75, 188, 253);
+}
+
+#check1:checked ~#caja1 #text1{
+    display: flex;
+
+
+}
+#check1:checked ~ #caja1{
+   width: 43vw;
+   height: 12vw;
+}
+#check2:checked ~#caja2 #text1{
+    display: flex;
+
+
+}
+#check2:checked ~ #caja2{
+   width: 43vw;
+   height: 11vw;
+}
+#check3:checked ~#caja3 #text1{
+    display: flex;
+
+
+}
+#check3:checked ~ #caja3{
+   width: 43vw;
+   height: 11vw;
+}
+#check4:checked ~#caja4 #text1{
+    display: flex;
+
+
+}
+#check4:checked ~ #caja4{
+   width: 43vw;
+   height: 9.5vw;
+}
+#check5:checked ~#caja5 #text1{
+    display: flex;
+}
+#check5:checked ~ #caja5{
+   width: 43vw;
+   height: 10vw;
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+
+}
+#cajap{
+    width: 30vw;
+    height: 30vw;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid  black ;
+    border-radius: 2vw;
+    margin: 10vw auto;
+    box-shadow: 0vw 2vw 1vw 0vw rgb(173, 169, 169) ;
+    transform: rotateX(20deg);
+
+}
+#circulito{
+    background-color: rgb(34, 154, 252);
+    width: 20vw;
+    height: 20vw;
+    margin-left: 5vw;
+    margin-top: 4vw;
+    border-radius: 50vw;
+    overflow: hidden;
+   
+}
+#tri1{
+    position: relative;
+    left:9vw;
+    top: 1vw;
+    width: 0vw;
+    height: 0vw;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-bottom: 10vw solid red;
+   
+ 
+}
+#tri2{
+    position: relative;
+    left:9vw;
+    top: 1vw;
+    width: 0vw;
+    height: 0vw;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-bottom: 8vw solid white;
+
+}
+
+#circulito:hover{
+    animation-name: flecha;
+    animation-duration: 1.5s;
+    z-index: 2;
+    cursor: pointer;
+}
+@keyframes flecha {
+    100%{
+        transform: rotateZ(360deg);
+    }
+    
+}
