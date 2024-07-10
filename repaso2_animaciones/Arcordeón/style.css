@@ -5,24 +5,25 @@ body{
     font-family: letra;
     src: url("type/MYRIADPRO-REGULAR.OTF");
 }
+
 #caja1{
    
-    margin-top: 10vw;
+    margin-top: 6vw;
     width: 43vw;
     height:5vw;
     background-color: white;
     margin-left: 30vw;
-  
+    transition: opacity 1s;
+
 }
 #caja2{
-  
     margin-top: -0.5vw;
     width: 43vw;
     height: 5vw;
     background-color: white;
     margin-left: 30vw;
-   
-  
+    transition: opacity 1s;
+
 }
 #caja3{
     margin-top: -0.5vw;
@@ -30,7 +31,8 @@ body{
     height: 5vw;
     background-color: white;
     margin-left: 30vw;
-   
+    transition:  opacity 1s;
+
 }
 #caja4{
     margin-top: -0.5vw;
@@ -38,6 +40,7 @@ body{
     height: 5vw;
     background-color: white;
     margin-left: 30vw;
+    transition:  opacity 1s;
 }
 #caja5{
     margin-top: -0.5vw;
@@ -45,6 +48,7 @@ body{
     height: 5vw;
     background-color: white;
     margin-left: 30vw;
+    transition:  opacity 1s;
  
 }
 .texto{
@@ -53,6 +57,7 @@ body{
     font-size: 1.5vw;
     left: 1vw;
     top: 1vw;
+   
 }
 #text1{
     display: none;
@@ -114,6 +119,8 @@ label{
    width: 43vw;
    height: 11vw;
 }
+
+
 #check3:checked ~#caja3 #text1{
     display: flex;
 
