@@ -30,9 +30,7 @@ body{
 }
 #textbarra{
     font-family: labrado;
-    color: #fff;
-
-   
+    color: #fff;  
 }
 #textlogo{
     position: relative;
@@ -45,12 +43,10 @@ body{
     top: -1vw;
     left: 60vw;  
     font-size: 1.5vw;
-   
 }
 #texthome:hover{
   text-decoration: underline
    rgb(212, 143, 63) ;
-   
 }
 #textabout{
     position: relative;
@@ -60,9 +56,8 @@ body{
 }
 #textabout:hover{
     text-decoration: underline
-     rgb(212, 143, 63) ;
-     
-  }
+    rgb(212, 143, 63) ; 
+}
 #textmenu{
     position: relative;
     top: -4.3vw;
@@ -71,9 +66,8 @@ body{
 }
 #textmenu:hover{
     text-decoration: underline
-     rgb(212, 143, 63) ;
-     
-  }
+    rgb(212, 143, 63) ;   
+}
 #textconctac{
     position: relative;
     top: -6vw;
@@ -82,9 +76,8 @@ body{
 }
 #textconctac:hover{
     text-decoration: underline
-     rgb(212, 143, 63) ;
-     
-  }
+    rgb(212, 143, 63) ;   
+}
 #textstart{
     position: relative;
     top:12vw;
@@ -108,14 +101,12 @@ body{
     position: absolute;
     top: 58.9vw;
     left:45vw ;
-  
 }
 #caja2{
     width:100vw;
     height: 50vw;
     background-color: black;
     overflow: hidden;
-
 }
 #taza1{
     position: relative;
@@ -196,7 +187,6 @@ body{
     height: 30vw;
     background-repeat: no-repeat;
     background-size: 30vw;
-    
 }
 #caja4{
     width:100vw;
@@ -229,7 +219,6 @@ body{
     left:40vw;
     top:-12vw;
     border-radius: 0.3vw;
-
 }
 #cuadro3{
     position: relative;
@@ -276,19 +265,20 @@ body{
     color: #fff;
     font-size: 1.5vw;
 }
-
 #boton3{
     background-color: rgb(212, 143, 63);
-    width: 9vw;
-    height: 1vw;
+    width: 10vw;
+    height: 2.5vw;
     position: relative;
-    top: 10vw;
+    top: 8vw;
     left:5vw ;
-    font-size: 1.2vw;
     justify-content: center;
     text-align: center;
-    padding: 1.2vw;
- 
+}
+.textlearn{
+    font-size: 1.2vw;
+    position: relative;
+    top: 0.5vw;
 }
 #linea2{
     position: relative;
