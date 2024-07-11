@@ -2,7 +2,16 @@ body{
     margin: auto;
     background-color: black;
     height: 200vw;
+    font-family: labrado;
  
+}
+@font-face {
+    font-family: labrado;
+    src: url("type font/LabradorB-Bold.ttf");
+}
+@font-face {
+    font-family: manier;
+    src: url("type font/Manier-Regular-Trial-BF650bbeaf2fb28.otf");
 }
 #caja1{
     width:100vw;
@@ -20,7 +29,7 @@ body{
     overflow: hidden;
 }
 #textbarra{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: labrado;
     color: #fff;
 
    
@@ -31,88 +40,58 @@ body{
     left: 20vw; 
     font-size: 2vw; 
 }
-#line1{
-    opacity:0 ;
-    position: relative;
-    top: 0.4vw;
-    left: 60vw; 
-    width:3vw ;
-    height: 0.1vw;
-    background-color: rgb(212, 143, 63);
-}
 #texthome{
     position: relative;
-    top: -1.3vw;
+    top: -1vw;
     left: 60vw;  
-    font-size: 1vw;
+    font-size: 1.5vw;
+   
 }
-#line1:hover{
-
-    opacity:100 ;
-}
-#line2{
-    opacity:0 ;
-    position: relative;
-    top: -0.95vw;
-    left: 66vw;   
-    width:3vw ;
-    height: 0.1vw;
-    background-color: rgb(212, 143, 63);
+#texthome:hover{
+  text-decoration: underline
+   rgb(212, 143, 63) ;
+   
 }
 #textabout{
     position: relative;
     top: -2.6vw;
     left: 66vw;  
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
-#line2:hover{
-
-    opacity:100 ;
-}
-#line3{
-    opacity:0 ;
-    position: relative;
-    top: -2.3vw;
-    left: 72vw;    
-    width:2.7vw ;
-    height: 0.1vw;
-    background-color: rgb(212, 143, 63);
-}
+#textabout:hover{
+    text-decoration: underline
+     rgb(212, 143, 63) ;
+     
+  }
 #textmenu{
     position: relative;
-    top: -3.9vw;
+    top: -4.3vw;
     left: 72vw;  
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
-#line3:hover{
-
-    opacity:100 ;
-}
-#line4{
-    opacity:0 ;
-    position: relative;
-    top: -3.56vw;
-    left: 78vw;    
-    width:4vw ;
-    height: 0.1vw;
-    background-color: rgb(212, 143, 63);
-}
+#textmenu:hover{
+    text-decoration: underline
+     rgb(212, 143, 63) ;
+     
+  }
 #textconctac{
     position: relative;
-    top: -5.3vw;
+    top: -6vw;
     left: 78vw;  
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
-#line4:hover{
-    opacity:100 ;
-}
+#textconctac:hover{
+    text-decoration: underline
+     rgb(212, 143, 63) ;
+     
+  }
 #textstart{
     position: relative;
     top:12vw;
     left: 29vw;
     color: #fff;
     font-size: 5vw;
-    font-family: letra;
+    font-family: manier;
 }
 #textwith{
     position: relative;
@@ -120,6 +99,7 @@ body{
     left: 27vw;
     color: #fff;
     font-size: 5vw;
+    font-family: manier;
 }
 #boton{
     background-color: rgb(212, 143, 63);
@@ -135,6 +115,7 @@ body{
     height: 50vw;
     background-color: black;
     overflow: hidden;
+
 }
 #taza1{
     position: relative;
@@ -160,13 +141,14 @@ body{
     left: 60vw;
     color: #fff;
     font-size: 5vw;
+    font-family: manier;
 }
 #textlorem{
     position: relative;
     top:-11vw;
     left: 60vw;
     color: #fff;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 #boton1{
     background-color: rgb(212, 143, 63);
@@ -188,13 +170,14 @@ body{
     top: 5vw;
     color: #fff;
     font-size: 3vw;
+    font-family: manier;
 }
 #textlorem2{
     position: relative;
     top:6vw;
     left: 10vw;
     color: #fff;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 #boton2{
     background-color: rgb(212, 143, 63);
@@ -217,7 +200,7 @@ body{
 }
 #caja4{
     width:100vw;
-    height: 80vw;
+    height: 85vw;
     background-color: black; 
     overflow: hidden;
 }
@@ -227,6 +210,7 @@ body{
     top: 5vw;
     color: #fff;
     font-size: 4vw;
+    font-family: manier;
 }
 #cuadro1{
     position: relative;
@@ -269,28 +253,28 @@ body{
     top:-1vw;
     left: 7.7vw;
     color: #fff;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 #texte{
     position: relative;
-    top:4.5vw;
+    top:4vw;
     left: 6vw;
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 #textc{
+    position: relative;
+    top:5vw;
+    left: 6vw;
+    color: #fff;
+    font-size: 1.5vw;
+}
+#texts{
     position: relative;
     top:6vw;
     left: 6vw;
     color: #fff;
-    font-size: 1.2vw;
-}
-#texts{
-    position: relative;
-    top:7vw;
-    left: 6vw;
-    color: #fff;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 
 #boton3{
@@ -300,10 +284,11 @@ body{
     position: relative;
     top: 10vw;
     left:5vw ;
-    font-size: 1vw;
+    font-size: 1.2vw;
     justify-content: center;
     text-align: center;
-    padding: 1vw;
+    padding: 1.2vw;
+ 
 }
 #linea2{
     position: relative;
@@ -318,8 +303,8 @@ body{
     top:-30vw;
     left: 23vw;
     color: #fff;
-    font-size: 2vw;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+    font-family: labrado;
 }
 span{
     color: rgb(212, 143, 63);
@@ -336,15 +321,15 @@ span{
 }
 #textco{
     position: relative;
-    top:-34.5vw;
+    top:-35.5vw;
     left: 44.5vw;
     color: #fff;
-    font-size: 2vw;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+    font-family: labrado;
 }
 #textamet{
     position: relative;
-    top:-33.7vw;
+    top:-34.4vw;
     left: 0.5vw;
     color: #fff;
     font-size: 0.9vw;
@@ -354,15 +339,15 @@ span{
 }
 #textop{
     position: relative;
-    top:-39vw;
+    top:-41vw;
     left: 64vw;
     color: #fff;
-    font-size: 2vw;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+    font-family: labrado;
 }
 #textu{
     position: relative;
-    top:-38.2vw;
+    top:-40vw;
     left: 22vw;
     color: #fff;
     font-size: 0.9vw;
@@ -377,4 +362,14 @@ span{
     width:34vw;
     height: 0.1vw;
     background-color: rgb(212, 143, 63);
+}
+#textfinish{
+    position: relative;
+    top: -29vw;
+    left: 0.5vw;
+    color: #fff;
+    font-size: 0.9vw;
+    text-align: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
