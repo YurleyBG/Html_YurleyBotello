@@ -1,0 +1,380 @@
+body{
+    margin: auto;
+    background-color: black;
+    height: 200vw;
+ 
+}
+#caja1{
+    width:100vw;
+    height: 60vw;
+    background-image: url("pinctures/pexels-nao-triponez-129207.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+}
+#barra{
+    width: 100vw;
+    height: 3vw;
+    background-color: black;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#textbarra{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+
+   
+}
+#textlogo{
+    position: relative;
+    top:0.5vw;
+    left: 20vw; 
+    font-size: 2vw; 
+}
+#line1{
+    opacity:0 ;
+    position: relative;
+    top: 0.4vw;
+    left: 60vw; 
+    width:3vw ;
+    height: 0.1vw;
+    background-color: rgb(212, 143, 63);
+}
+#texthome{
+    position: relative;
+    top: -1.3vw;
+    left: 60vw;  
+    font-size: 1vw;
+}
+#line1:hover{
+
+    opacity:100 ;
+}
+#line2{
+    opacity:0 ;
+    position: relative;
+    top: -0.95vw;
+    left: 66vw;   
+    width:3vw ;
+    height: 0.1vw;
+    background-color: rgb(212, 143, 63);
+}
+#textabout{
+    position: relative;
+    top: -2.6vw;
+    left: 66vw;  
+    font-size: 1vw;
+}
+#line2:hover{
+
+    opacity:100 ;
+}
+#line3{
+    opacity:0 ;
+    position: relative;
+    top: -2.3vw;
+    left: 72vw;    
+    width:2.7vw ;
+    height: 0.1vw;
+    background-color: rgb(212, 143, 63);
+}
+#textmenu{
+    position: relative;
+    top: -3.9vw;
+    left: 72vw;  
+    font-size: 1vw;
+}
+#line3:hover{
+
+    opacity:100 ;
+}
+#line4{
+    opacity:0 ;
+    position: relative;
+    top: -3.56vw;
+    left: 78vw;    
+    width:4vw ;
+    height: 0.1vw;
+    background-color: rgb(212, 143, 63);
+}
+#textconctac{
+    position: relative;
+    top: -5.3vw;
+    left: 78vw;  
+    font-size: 1vw;
+}
+#line4:hover{
+    opacity:100 ;
+}
+#textstart{
+    position: relative;
+    top:12vw;
+    left: 29vw;
+    color: #fff;
+    font-size: 5vw;
+    font-family: letra;
+}
+#textwith{
+    position: relative;
+    top:42vw;
+    left: 27vw;
+    color: #fff;
+    font-size: 5vw;
+}
+#boton{
+    background-color: rgb(212, 143, 63);
+    width: 10vw;
+    height: 3vw;
+    position: absolute;
+    top: 58.9vw;
+    left:45vw ;
+  
+}
+#caja2{
+    width:100vw;
+    height: 50vw;
+    background-color: black;
+    overflow: hidden;
+}
+#taza1{
+    position: relative;
+    left: 1vw;
+    top: 15vw;
+    background-image:url("pinctures/pexels-chitokan-2183027-removebg-preview.png") ;
+    width: 35vw;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size: 40vw;
+}
+#linea{
+    position: relative;
+    top: -9vw;
+    left: 50vw;
+    width:8vw;
+    height: 0.1vw;
+    background-color: #fff;
+}
+#textour{
+    position: relative;
+    top:-12vw;
+    left: 60vw;
+    color: #fff;
+    font-size: 5vw;
+}
+#textlorem{
+    position: relative;
+    top:-11vw;
+    left: 60vw;
+    color: #fff;
+    font-size: 1vw;
+}
+#boton1{
+    background-color: rgb(212, 143, 63);
+    width: 10vw;
+    height: 3vw;
+    position: relative;
+    top: -8vw;
+    left:60vw ;
+}
+#caja3{
+    width:100vw;
+    height: 30vw;
+    background-color: black; 
+    overflow: hidden;
+}
+#textperfect{
+    position: relative;
+    left: 10vw;
+    top: 5vw;
+    color: #fff;
+    font-size: 3vw;
+}
+#textlorem2{
+    position: relative;
+    top:6vw;
+    left: 10vw;
+    color: #fff;
+    font-size: 1vw;
+}
+#boton2{
+    background-color: rgb(212, 143, 63);
+    width: 10vw;
+    height: 3vw;
+    position: relative;
+    top: 8vw;
+    left:10vw ;
+}
+#taza2{
+    position: relative;
+    left: 62vw;
+    top:-16vw;
+    background-image:url("pinctures/2.png") ;
+    width: 35vw;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size: 30vw;
+    
+}
+#caja4{
+    width:100vw;
+    height: 80vw;
+    background-color: black; 
+    overflow: hidden;
+}
+#textproduct{
+    position: relative;
+    left: 4vw;
+    top: 5vw;
+    color: #fff;
+    font-size: 4vw;
+}
+#cuadro1{
+    position: relative;
+    width: 20vw;
+    height: 30vw;
+    border: 1px solid  rgb(212, 143, 63);
+    left:8vw;
+    top:18vw;
+    border-radius: 0.3vw;
+}
+#cuadro2{
+    position: relative;
+    width: 20vw;
+    height: 30vw;
+    border: 1px solid  rgb(212, 143, 63);
+    left:40vw;
+    top:-12vw;
+    border-radius: 0.3vw;
+
+}
+#cuadro3{
+    position: relative;
+    width: 20vw;
+    height: 30vw;
+    border: 1px solid  rgb(212, 143, 63);
+    left:72vw;
+    top:-42vw;
+    border-radius: 0.3vw;
+}
+#img1{
+    position: relative;
+    left: 2.9vw;
+    top:-2vw;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50vw;
+}
+#textmocha{
+    position: relative;
+    top:-1vw;
+    left: 7.7vw;
+    color: #fff;
+    font-size: 1.5vw;
+}
+#texte{
+    position: relative;
+    top:4.5vw;
+    left: 6vw;
+    color: #fff;
+    font-size: 1.2vw;
+}
+#textc{
+    position: relative;
+    top:6vw;
+    left: 6vw;
+    color: #fff;
+    font-size: 1.2vw;
+}
+#texts{
+    position: relative;
+    top:7vw;
+    left: 6vw;
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+#boton3{
+    background-color: rgb(212, 143, 63);
+    width: 9vw;
+    height: 1vw;
+    position: relative;
+    top: 10vw;
+    left:5vw ;
+    font-size: 1vw;
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+}
+#linea2{
+    position: relative;
+    top: -38vw;
+    left: 33.5vw;
+    width:34vw;
+    height: 0.1vw;
+    background-color: rgb(212, 143, 63);
+}
+#texta{
+    position: relative;
+    top:-30vw;
+    left: 23vw;
+    color: #fff;
+    font-size: 2vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    color: rgb(212, 143, 63);
+}
+#textsit{
+    position: relative;
+    top:-29vw;
+    left: -22vw;
+    color: #fff;
+    font-size: 0.9vw;
+    text-align: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#textco{
+    position: relative;
+    top:-34.5vw;
+    left: 44.5vw;
+    color: #fff;
+    font-size: 2vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#textamet{
+    position: relative;
+    top:-33.7vw;
+    left: 0.5vw;
+    color: #fff;
+    font-size: 0.9vw;
+    text-align: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#textop{
+    position: relative;
+    top:-39vw;
+    left: 64vw;
+    color: #fff;
+    font-size: 2vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#textu{
+    position: relative;
+    top:-38.2vw;
+    left: 22vw;
+    color: #fff;
+    font-size: 0.9vw;
+    text-align: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#linea3{
+    position: relative;
+    top: -30vw;
+    left: 33.5vw;
+    width:34vw;
+    height: 0.1vw;
+    background-color: rgb(212, 143, 63);
+}
