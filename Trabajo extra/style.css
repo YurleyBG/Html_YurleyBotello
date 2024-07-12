@@ -104,7 +104,7 @@ body{
 }
 #caja2{
     width:100vw;
-    height: 50vw;
+    height: 50;
     background-color: black;
     overflow: hidden;
 }
@@ -181,7 +181,7 @@ body{
 #taza2{
     position: relative;
     left: 62vw;
-    top:-16vw;
+    top:-14vw;
     background-image:url("pinctures/2.png") ;
     width: 35vw;
     height: 30vw;
