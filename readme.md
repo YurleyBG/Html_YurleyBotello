@@ -38,13 +38,13 @@ al hacer esto se descargará  los datos del repositorio. puedes usar visual stud
  * CSS3
 
  ## Estructura de Proyecto
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](pincture/image.png)
+![alt text](pincture/image-1.png)
+![alt text](pincture/image-2.png)
+![alt text](pincture/image-3.png)
+![alt text](pincture/image-4.png)
+![alt text](pincture/image-5.png)
+![alt text](pincture/image-6.png)
 
 ## Crédito 
 Cada uno de estos proyectos fueron realizados por Yurley Botello.
