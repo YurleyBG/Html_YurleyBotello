@@ -9,16 +9,16 @@ Cuenta con varios proyectos realizados en Html y Css
 | 2 | Dia2 |información personal|
 | 3 | Dia3 |Metrolinea|
 | 4 | Dia4 |Amazon|
-| 5 | Dia5 |foods°
+| 5 | Dia5 |foods|
 | 6 | Dia6 |Dian|
 | 7 | Dia7 |Prime Entertainment|
 | 8 | Dia8 |publicidad|
 | 9 | Dia9 |PAISAJE|
 | 10 | Dia10 |Dashboard|
 | 11 | proyecto test html |Bono solidario|
-| 12 | repaso2_animaciones | animaciones2|
-| 13 | repasodia3 | animaciones|
-| 14 | Trabajo extra | coffee |
+| 12 | repaso2_animaciones | Animaciones2|
+| 13 | repasodia3 | Animaciones|
+| 14 | Trabajo extra | Coffee |
 
 
 ## Instalación
