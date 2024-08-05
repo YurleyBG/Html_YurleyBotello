@@ -3,22 +3,22 @@
 Cuenta con varios proyectos realizados en Html y Css
 
 ## Tabla De Contenido
-| Índice | Título |
-|--|------|
-| 1 | DIA1 | 
-| 2 | Dia2 |
-| 3 | Dia3 |
-| 4 | Dia4 |
-| 5 | Dia5 |
-| 6 | Dia6 |
-| 7 | Dia7 |
-| 8 | Dia8 |
-| 9 | Dia9 |
-| 10 | Dia10 |
-| 11 | proyecto test html |
-| 12 | repaso2_animaciones |
-| 13 | repasodia3 |
-| 14 | Trabajo extra |
+| Índice | Título | DESCRIPCIÓN|
+|--|------|-----|
+| 1 | DIA1 | Proyecto de vida|
+| 2 | Dia2 |información personal|
+| 3 | Dia3 |Metrolinea|
+| 4 | Dia4 |Amazon|
+| 5 | Dia5 |foods°
+| 6 | Dia6 |Dian|
+| 7 | Dia7 |Prime Entertainment|
+| 8 | Dia8 |publicidad|
+| 9 | Dia9 |PAISAJE|
+| 10 | Dia10 |Dashboard|
+| 11 | proyecto test html |Bono solidario|
+| 12 | repaso2_animaciones | animaciones2|
+| 13 | repasodia3 | animaciones|
+| 14 | Trabajo extra | coffe |
 
 
 ## Instalación
