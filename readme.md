@@ -13,10 +13,10 @@ Cuenta con varios proyectos realizados en Html y Css
 | 6 | Dia6 |Dian|
 | 7 | Dia7 |Prime Entertainment|
 | 8 | Dia8 |publicidad|
-| 9 | Dia9 |PAISAJE|
+| 9 | Dia9 |Paisaje|
 | 10 | Dia10 |Dashboard|
 | 11 | proyecto test html |Bono solidario|
-| 12 | repaso2_animaciones | Animaciones2|
+| 12 | repaso2_animaciones | Animaciones 2|
 | 13 | repasodia3 | Animaciones|
 | 14 | Trabajo extra | Coffee |
 
