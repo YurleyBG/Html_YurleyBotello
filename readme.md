@@ -6,7 +6,7 @@ Cuenta con varios proyectos realizados en Html y Css
 | Índice | Título | DESCRIPCIÓN|
 |--|------|-----|
 | 1 | DIA1 | Proyecto de vida|
-| 2 | Dia2 |información personal|
+| 2 | Dia2 |Información personal|
 | 3 | Dia3 |Metrolinea|
 | 4 | Dia4 |Amazon|
 | 5 | Dia5 |foods|
